@@ -26,7 +26,8 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: hitchens-theme
+# theme: hitchens-theme
+remote_theme: patdryburgh/hitchens
 plugins:
   - jekyll-feed
 
