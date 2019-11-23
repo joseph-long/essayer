@@ -1,0 +1,33 @@
+---
+---
+input[type=text], input[type=email], textarea {
+  border: none;
+  font-family: 'PT Mono';
+}
+
+input[type=submit] {
+  font-family: 'PT Mono';
+  -webkit-appearance: button;
+  border: 1px;
+  border-style: solid;
+  border-radius: 0px;
+  background: none;
+}
+
+input.expand-right { display: inline; }
+
+textarea {
+  display: block;
+  overflow: hidden;
+  resize: none;
+  width: 100%;
+  padding: 0px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+div[spacer] { height: 1em; }
+
+iframe { display: none; }

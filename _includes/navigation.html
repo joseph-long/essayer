@@ -1,0 +1,12 @@
+<nav>
+  <a href="{{ site.baseurl }}/index.html" style="text-align: left; font-weight: bold;">
+    {% if page.url == '/'%}[{% endif %} E S S A Y E R {% if page.url == '/'%}]{% endif %}
+  </a>
+  <span style="float: right;">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.rel_path | prepend: site.baseurl }}" style="margin-left: 1em;">
+      {% if page.url == item.rel_path %}[{% endif %} {{ item.name }} {% if page.url == item.rel_path %}]{% endif %}
+    </a>
+  {% endfor %}
+  </span>
+</nav>

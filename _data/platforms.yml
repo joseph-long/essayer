@@ -1,0 +1,6 @@
+- name: GitHub
+  handle: constellationcolon
+  href_fmt: https://github.com/<handle>
+- name: LinkedIn
+  handle: suhang42
+  href_fmt: https://www.linkedin.com/in/<handle>/

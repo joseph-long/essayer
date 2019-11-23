@@ -1,0 +1,4 @@
+- name: About
+  rel_path: /about.html
+- name: Contact
+  rel_path: /contact.html
