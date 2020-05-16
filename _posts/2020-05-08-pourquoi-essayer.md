@@ -21,6 +21,8 @@ to exchange ideas, and to blame others for logical fallacies all up until the
 point that you discover you'd laid those mental traps for yourself in the first
 place. It's a medium for extraversion and introspection alike.
 
+<center>~</center>
+
 There's this article, years gone, that still comes to mind. I can't remember
 what it was called, or what its subject was,[^3] but I do remember that it was
 presented as if it were a word document on edit mode, laying bare every word
