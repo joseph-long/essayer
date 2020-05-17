@@ -2,6 +2,24 @@
 layout: default
 ---
 
-<p style="text-align: center; margin-bottom: 3em;">{{ page.title | upcase }}</p>
+<p style="text-align: center; margin-bottom: 3em;">
+<a id="title">
+{{ page.title | upcase }}
+</a>
+</p>
 
 {{ content }}
+
+<script type="text/javascript">
+  var url = window.location.href.split("/");
+  var year = url[url.length - 4];
+  var month = url[url.length - 3];
+  var date = url[url.length - 2];
+  var filename = url[url.length - 1].split(".")[0];
+  var blameMaster = (
+    "https://github.com/constellationcolon/essayer/blame/master/_posts/"
+    + year + "-" + month + "-" + date + "-" + filename + ".md"
+  );
+  var title = document.getElementById("title");
+  title.href = blameMaster;
+</script>
