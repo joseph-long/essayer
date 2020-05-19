@@ -14,9 +14,13 @@ input[type=submit] {
   background: none;
 }
 
-input.expand-right { display: inline; }
+input.expand-right {
+  background: none;
+  display: inline;
+}
 
 textarea {
+  background: none;
   display: block;
   overflow: hidden;
   resize: none;
@@ -31,3 +35,8 @@ textarea:focus, input:focus{
 div[spacer] { height: 1em; }
 
 iframe { display: none; }
+
+.dark-submit {
+  color: white;
+  border-color: white;
+}
