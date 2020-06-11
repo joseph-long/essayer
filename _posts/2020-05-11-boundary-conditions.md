@@ -17,3 +17,22 @@ Human, Brian Christian
 
 "the denial of death"
 
+
+
+asking the right questions
+
+creativity
+  - iambic pentameter
+  - blank slate is toughest, having constraints makes creativity easier
+
+perversely, censorship also helps
+  - https://medium.com/@kixes/theatre-in-the-age-of-authoritarianism-45e4bda8a901
+    > “Martin Esslin, a scholar and my professor, used to say that in Eastern
+      Europe under communism, everything was read as political. … There was so
+      much vibrancy to the theatre. After the Berlin Wall fell, theatre was
+      much less interesting,” said Claudia Orenstein, professor and chair of
+      Hunter College’s theatre department. “Now people will see completely
+      different plays than they saw before.”
+  - Shostakovich. Prokofiev. Bulgakov. Dostoevsky. Tchaikovsky.
+
+
