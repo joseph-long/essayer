@@ -46,6 +46,10 @@ speak. Trimming the fat, but keeping the scraps, just in case they come in
 useful later on. Also helpful for being honest with yourself: human
 endeavours are never borne of immaculate conception.
 
+<!-- there's something here about needing to hold on to my memory, and to
+connect the threads of thought in my brain across time, like how culture and
+tradition constitutes a shared memory for Homo sapiens -->
+
 [^1]: Disclaimer: am not French. It is possible that this is so obvious that
     they _don't_ bother telling you that when you read it as a French person.
 
