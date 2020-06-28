@@ -1,20 +1,40 @@
 ---
 layout:   essai
-title:    "Advertising & Democracy"
+title:    "Propaganda"
 ---
 
+IF prostitution is the world's oldest profession, surely then propaganda must
+be the world's oldest industry. After all, the birds and the bees are
+predicated on its wiles: it's not for the pleasures of music that the songbird
+trills, not for the aesthetics of landscape that the flowers bloom. As soon as
+sexual reproduction appeared on the scene, organisms have needed to advertise
+their sexual availability, to potential mates and pollinators alike.
 
-  - advertising as the world's oldest industry. the ad-men predate prostitutes
+<!-- 
+propaganda -> advertising after ww2
+
+
+  - advertising as the world's oldest industry? the ad-men predate prostitutes
     even [citation needed: prostitution in apes; any older?]. certainly with
     sexual reproduction came the need to advertise sexual availability, before
     animals figured out they could barter sex.
-  - have to advertise to stand out
+  - have to advertise to stand out in a crowded market (generating demand where
+    previously there was none, i.e. nobody saw a need for it, or wanted it in
+    the first place)
   - somewhere along the way people accepted that lie/adverts as truth at
-    face-value
+    face-value (observation collapses the wave function? observation changes
+    the result? or was that true from the start?)
   - something about plato vs aristotle??
   - no logo: unfettered from earthly goods & assets, trade on ideas & brands
+    (attempting to extricate oneself from the human boundary condition, only
+    everyone is still tied down)
+  - value of "essential work" vs value of "non-essential work" (COVID-19)
+  - value of "woman's work" vs value of "non-woman's work"
+    - russia doctors anecdote
+  - commodity fetishism -> brand fetishism
   - unfortunately, human brains seem to work just via passive absorption on
-    some level: ses/hear something more => seems more true
+    some level: see/hear something more => seems more true
+
   - hollywood + cultural dominance + consumerism + propaganda
   - panem et circensus / soma
   - persuasion by diffusion, or why i have a hard time reading a lot of fiction
@@ -61,10 +81,4 @@ title:    "Advertising & Democracy"
     - propaganda & control of the public mind
     - mad men
     - amusing ourselves to death
-
-
-    <!-- requires more research -->
-
-  - value of "essential work" vs value of "non-essential work" (COVID-19)
-  - value of "woman's work" vs value of "non-woman's work"
-    - russia doctors anecdote
+ -->
