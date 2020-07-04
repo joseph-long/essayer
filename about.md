@@ -8,8 +8,14 @@ layout: default
 <table>
 {% for platform in site.data.platforms %}
 <tr>
-  <td>{{platform.name}}</td>
-  <td><a target="_blank" rel="noopener noreferrer" href="{{platform.href_fmt | replace: '<handle>', platform.handle}}">{{platform.handle}}</a></td>
+  <td class="platform">{{platform.name}}</td>
+  <td class="link">
+    <a target="_blank"
+       rel="noopener noreferrer"
+       href="{{platform.href_fmt | replace: '<handle>', platform.handle}}">
+      {{platform.handle}}
+    </a>
+  </td>
 </tr>
 {% endfor %}
 </table>
