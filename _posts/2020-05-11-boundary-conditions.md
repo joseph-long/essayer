@@ -46,6 +46,19 @@ perversely, censorship also helps
 boundary conditions ~ axioms
 everything in between ~ theorems
 
+aristotle: give me a lever long enough and a fixed place to stand (fixed
+fulcrum?) and i will move the Earth.
+- much has been said about the length of the lever, not so much about the
+  fixed fulcrum: need "axioms" / "material conditions" / foundation, or
+  whatever you want to call it to be able to apply your force against.
+
+make models of the world precisely because we've found that there are
+regularities in our environment, persistent through time, that we can exploit
+to get what we need. this is the fulcrum.
+
+shock doctrine: remove the fulcrum. people have no basis of fact, no way to
+know that conditions in the world will still be the same tomorrow such that
+taking some action today would still be beneficial.
 
 So long as AI doesn't share the same BC's as humans, they will never be truly
 "intelligent" in all the senses of the word that humans have it. And if they
