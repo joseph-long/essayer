@@ -46,8 +46,8 @@ perversely, censorship also helps
 boundary conditions ~ axioms
 everything in between ~ theorems
 
-aristotle: give me a lever long enough and a fixed place to stand (fixed
-fulcrum?) and i will move the Earth.
+"Give me a lever long enough and a fulcrum on which to place it, and I shall
+move the world." -- Aristotle
 - much has been said about the length of the lever, not so much about the
   fixed fulcrum: need "axioms" / "material conditions" / foundation, or
   whatever you want to call it to be able to apply your force against.
