@@ -29,6 +29,14 @@ to fertilizer. Ashes to ashes. And we spark across the gap.” — The Most Huma
 Human, Brian Christian
 
 "the denial of death"
+- (NB: built upon Freudian psychoanalytic theories, fraught with landmines e.g.
+  Oedipus complex, obsessions with anality and the penis symbol, and
+  hero-worship of Freud)
+- in some ways, this is a search for the "categorical imperative" now that
+  religion has been dethroned
+- condition: categorical imperative has to allow "man" to transcend death
+- alludes to consumerism + psychoanalysis being the replacements in modern life
+  via aspirations to an ideal lifestyle (cf essay on propaganda)
 
 homo sapiens: periodic boundary conditions via reproduction?
 
