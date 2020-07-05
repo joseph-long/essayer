@@ -7,6 +7,16 @@ birth, death, taxes.
 
 https://en.wikipedia.org/wiki/Demurrage_(currency)
 
+"Only money that goes out of date like a newspaper, rots like potatoes, rusts
+like iron, evaporates like ether, is capable of standing the test as an
+instrument for the exchange of potatoes, newspapers, iron and ether. For such
+money is not preferred to goods either by the purchaser or the seller. We then
+part with our goods for money only because we need the money as a means of
+exchange, not because we expect an advantage from possession of the money. So
+we must make money worse as a commodity if we wish to make it better as a
+medium of exchange."
+— Silvio Gesell, "The Natural Economic Order"
+
 "innovation", "recurring revenue", ...: we live and die and regenerate and have
 to re-acquire sustenance everyday, the 'boundary conditions' for our lives.
 
@@ -20,11 +30,24 @@ Human, Brian Christian
 
 "the denial of death"
 
-homo sapiens: periodic boundary conditions?
+homo sapiens: periodic boundary conditions via reproduction?
 
-death as necessity
-- physicist quote
+## death as our enemy, death as our friend
+
+A new scientific truth does not generally triumph by persuading its opponents
+and getting them to admit their errors, but rather by its opponents gradually
+dying out and giving way to a new generation that is raised on it. … An
+important scientific innovation rarely makes its way by gradually winning over
+and converting its opponents: it rarely happens that Saul becomes Paul. What
+does happen is that its opponents gradually die out, and that the growing
+generation is familiarized with the ideas from the beginning: another instance
+of the fact that the future lies with the youth.
+-- Max Planck
+
+- gelman cohort effects in poli-sci (?)
 - laura deming, longevity fund, interact
+
+
 
 asking the right questions
 
@@ -65,6 +88,23 @@ So long as AI doesn't share the same BC's as humans, they will never be truly
 share the same BC's--birth and death and taxes, and then, love and loss,
 euphoria and grief, and vanity and imperfection and hubris and everything
 in-between? Well then at that point, we may as well have just brought a new
-child into the world the way that evolution has ________ us after having
+child into the world the way that evolution has shaped us after having
 tinkered with Homo sapiens for a couple billion years instead of going to all
 the trouble of trying to invent one from scratch.
+
+
+=> remodelling our ideals and institutions to hew more closely to human
+boundary conditions (NB: this != reflect current realities, only need to
+reflect inevitabilities) instead of simply building castles in thin air.
+
+e.g. current fetish of unlimited growth on a finite planet with finite
+resources, or SG placing emphasis on growth decade after decade on a tiny
+island being threatened by sea-level rise.
+
+either
+1.  accept that resources are finite and come up with new ideals that are more
+    compatible with all the other bio- and geo-diversity on Earth
+2.  reject earthly limitations (e.g. escape to Mars or something à la all the
+    Silicon Valley bros) and eventually loop back around to insatiable greed
+    and environmental degradation everywhere we live, leaving behind a Mad Max
+    legacy on the planet we started from (cf Exogenesis by Muse)
