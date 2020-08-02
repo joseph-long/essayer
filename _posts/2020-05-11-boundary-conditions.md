@@ -17,6 +17,25 @@ we must make money worse as a commodity if we wish to make it better as a
 medium of exchange."
 — Silvio Gesell, "The Natural Economic Order"
 
+We thus arrive at the conclusion that any sort of perpetual motion is
+impossible. A continuous stream of fresh energy is necessary for the continuous
+working of any working system, whether animate or inanimate. Life is cyclic as
+regards the material substances consumed, and the same materials are used over
+and over again in metabolism. But as regards energy, it is unidirectional, and
+no continuous cyclic use of energy is even conceivable. If we have available
+energy, we may maintain life and produce every material requisite necessary.
+That is why the flow of energy should be the primary concern of economics. In a
+world which has adequate supplies of energy, scientific knowledge and
+inventions for utilising it, and the man-power able and willing to perform the
+necessary duties and services, poverty and destitution are purely artificial
+institutions, due to ignorance of the principles of government, actively, if
+not deliberately, fostered for class ends by legal conventions confounding
+wealth with debt. Under any scientific system of government they would
+disappear like small-pox and malaria, by means of preventive rather than
+ameliorative or curative measures.
+
+— Wealth, Virtual Wealth and Debt, Frederick Soddy
+
 "innovation", "recurring revenue", ...: we live and die and regenerate and have
 to re-acquire sustenance everyday, the 'boundary conditions' for our lives.
 
