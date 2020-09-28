@@ -21,3 +21,36 @@ a { color: black; }
   color: white;
 }
 .dark-mode-text { color: white; }
+
+.essai {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.69em;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.title > a {
+  font-variant-caps: small-caps;
+  letter-spacing: 0.1em;
+  text-underline-offset: 0.5em;
+}
+
+.footnotes {
+  font-size: 0.7em;
+  line-height: initial;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 0.5em;
+}
+sup {
+  top: -0.5em;
+}
+sub { 
+  top: 0.5em;
+}

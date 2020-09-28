@@ -2,13 +2,10 @@
 layout: default
 ---
 
-<p style="text-align: center; margin-bottom: 3em;">
-<a id="title">
-{{ page.title | upcase }}
-</a>
-</p>
-
-{{ content }}
+<div class="essai">
+  <p class="title"><a id="title"> {{ page.title }} </a></p>
+  {{ content }}
+</div>
 
 <script type="text/javascript">
   var url = window.location.href.split("/");
