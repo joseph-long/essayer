@@ -1,30 +1,51 @@
 body {
-  font-family: "PT Mono", monospace;
+  font-family: "DM Mono", monospace;
   font-size: 11px;
 }
 
-nav a { text-decoration: none; }
+code {
+  font-family: "DM Mono", monospace;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+}
 
-#nav-item { margin-left: 1em; }
+nav a {
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+#nav-item {
+  margin-left: 1em;
+}
 
 .main {
   max-width: 80ch;
   margin: auto;
 }
 
-a { color: black; }
+a {
+  color: black;
+}
 
-.footnotes { margin-top: 5em; }
 
 .dark-mode {
   background-color: black;
   color: white;
 }
-.dark-mode-text { color: white; }
+
+.dark-mode-text {
+  color: white;
+}
 
 .essai {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.69em;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.56em;
+}
+
+.essai blockquote {
+  font-size: 0.9em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .title {
@@ -32,25 +53,81 @@ a { color: black; }
   margin-bottom: 3em;
 }
 
-.title > a {
-  font-variant-caps: small-caps;
-  letter-spacing: 0.1em;
+.title>a {
+  letter-spacing: 0.15em;
+  text-transform: lowercase;
   text-underline-offset: 0.5em;
+  font-family: 'Cormorant Unicase';
+}
+
+.title>a>span {
+  margin-left: -0.05em;
+  margin-right: -0.05em;
+  white-space: pre;
+}
+
+.title>a>span:last-child {
+  letter-spacing: 0em;
 }
 
 .footnotes {
+  margin-top: 5em;
   font-size: 0.7em;
   line-height: initial;
 }
 
-sup, sub {
+sup,
+sub {
   vertical-align: baseline;
   position: relative;
   font-size: 0.5em;
 }
+
 sup {
-  top: -0.5em;
+  top: -1em;
 }
-sub { 
-  top: 0.5em;
+
+sub {
+  top: 1em;
 }
+
+#home {
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 1ch;
+  text-transform: uppercase;
+}
+
+.main-text p {
+  text-indent: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.6em;
+}
+
+.main-text p:first-child {
+  text-indent: initial;
+}
+
+section {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.image > img {
+  width: 100%;
+}
+.image > figcaption {
+  font-family: 'Cormorant Upright';
+  font-size: 0.7em;
+}
+
+/* font styles */
+.sc {
+  font-family: 'Cormorant SC';
+}
+
+.uc {
+  font-family: 'Cormorant Unicase'
+}
+

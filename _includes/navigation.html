@@ -1,6 +1,6 @@
 <nav>
-  <a href="{{ site.baseurl }}/index.html" style="text-align: left; font-weight: bold;">
-    {% if page.url == '/'%}[{% endif %} E S S A Y E R {% if page.url == '/'%}]{% endif %}
+  <a id="home" href="{{ site.baseurl }}/index.html">
+    {% if page.url == '/'%}[{% endif %}ESSAYER{% if page.url == '/'%}]{% endif %}
   </a>
   <span style="float: right;">
     {% for item in site.data.navigation %}
@@ -8,6 +8,6 @@
         {% if page.url == item.rel_path %}[{% endif %} {{ item.name }} {% if page.url == item.rel_path %}]{% endif %}
       </a>
     {% endfor %}
-    <a onclick="toggleDarkMode()" href="#">☯︎</a>
+    <a onclick="toggleDarkMode()" href="#">◒</a>
   </span>
 </nav>
