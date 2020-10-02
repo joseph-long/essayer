@@ -7,7 +7,7 @@ url: "https://constellationcolon.github.io"
 github: constellationcolon
 linkedin: suhang42
 
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["FOOTNOTES", "SMART"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+# markdown: CommonMarkGhPages
+# commonmark:
+#   options: ["FOOTNOTES", "SMART"]
+#   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
