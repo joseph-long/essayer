@@ -3,6 +3,10 @@ description: >-
   Lorem ipsum dolor sit amet
 baseurl: "/essayer"
 url: "https://constellationcolon.github.io"
+permalink: none
+
+collections:
+  - books
 
 github: constellationcolon
 linkedin: suhang42
@@ -11,3 +15,10 @@ markdown: CommonMark
 commonmark:
   options: ["FOOTNOTES", "SMART", "UNSAFE"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
+scholar:
+  bibliography: bibliography.bib
+  bibliography_template: bib
+  relative: /essayer/stacks.html
+  details_layout: bibtex.html
+  details_link: ✒︎

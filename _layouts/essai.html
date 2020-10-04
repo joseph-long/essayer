@@ -3,15 +3,8 @@ layout: default
 ---
 
 <div class="essai">
-  <p class="title"><a id="title">
-    {% assign title = page.title | split: "" %}
-    {% for t in title %}
-        <span>{{ t }}</span>
-    {% endfor %}
-</a></p>
-  <div class="main-text">
-    {{ content }}
-  </div>
+  <h3><a id="title">{{ page.title }}</a></h3>
+  <div class="main-text">{{ content }}</div>
 </div>
 
 <script type="text/javascript">

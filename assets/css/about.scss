@@ -1,6 +1,5 @@
 ---
 ---
-table { width: fit-content; margin: auto; }
+p { margin: 0; }
 
-td.platform { text-align: right; padding-right: 1em; }
-td.link { padding: 0px; }
+.platform { display: inline-block; width: 10ch; }

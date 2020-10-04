@@ -5,17 +5,14 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="assets/css/about.css">
 
-<table>
+
 {% for platform in site.data.platforms %}
-<tr>
-  <td class="platform">{{platform.name}}</td>
-  <td class="link">
-    <a target="_blank"
-       rel="noopener noreferrer"
-       href="{{platform.href_fmt | replace: '<handle>', platform.handle}}">
-      {{platform.handle}}
-    </a>
-  </td>
-</tr>
+<span class="platform">{{platform.name}}</span>
+<a class="handle"
+   target="_blank"
+   rel="noopener noreferrer"
+   href="{{platform.href_fmt | replace: '<handle>', platform.handle}}">
+  {{platform.handle}}
+</a>
 {% endfor %}
 </table>
