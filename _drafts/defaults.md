@@ -3,8 +3,6 @@ layout:   essai
 title:    "Defaults"
 ---
 
-<section>
-
 The online news ecosystem has, up until very recently, been funded
 predominantly by advertising. For decades, broadcast & print mass media
 companies had enjoyed the undivided attention of the popular mind, and the
@@ -39,11 +37,7 @@ newspaper started to derive most of its revenue from the advertiser and not
 from you, the reader, it had already been defanged as a speaker of the people's
 truth.
 
-</section>
-
-<center><i>&</i></center>
-
-<section>
+<div class="section-break">&</div>
 
 It's a bit of a mystery how we came to use the word *default* to mean <span
 class="sc">the standard fall-back option in the absence of an explicitly
@@ -89,8 +83,6 @@ making IE the default, and hence the browser of (lazy consumer) choice. Why
 bother developing a better product when you can just tack it on to your
 already-popular platform, and make all your pre-existing users adopt it?[^ft]
 
-</section>
-
 
 [^chomsky] [^gtal] [^postman]
 
@@ -126,7 +118,7 @@ already-popular platform, and make all your pre-existing users adopt it?[^ft]
     can certainly apply to any form of media that is (nearly) free to
     consume—including the newspaper.]
 
-[^me]: Much more about the news business [in this other post]({{ site.baseurl }}{% post_url 2020-09-27-news %}).
+[^me]: Much more about the news business [in this other post](link to news.html TK).
 
 [^meyers]: Meyers, J., Tognazzini, B. (1982).
     [*Apple IIe Design Guidelines*]({{ site.baseurl }}{% link /assets/files/AppleIIeDesignGuidelines.pdf %})

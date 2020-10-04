@@ -97,9 +97,10 @@ sub {
   margin-top: 3em;
 }
 
-section {
-  margin-top: 1em;
-  margin-bottom: 1em;
+.section-break {
+  text-align: center;
+  font-style: italic;
+  margin: 1em 0;
 }
 
 .image > img {
