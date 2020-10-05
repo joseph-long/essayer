@@ -2,9 +2,7 @@
 layout: essai
 ---
 
-<h5><span style="border-top: 1px solid black; padding: 0.2em;">
-  {{ page.entry.author }}
-</span></h5>
+<h3><span id="author">{{ page.entry.author }}</span></h3>
 
 <div>
 {% capture this_book %}{{ site.books | where: "key", page.entry.key | first }}{% endcapture %}

@@ -11,14 +11,17 @@ collections:
 github: constellationcolon
 linkedin: suhang42
 
-markdown: CommonMark
-commonmark:
-  options: ["FOOTNOTES", "SMART", "UNSAFE"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+markdown: Kramdown
 
 scholar:
   bibliography: bibliography.bib
   bibliography_template: bib
-  relative: /essayer/stacks.html
+  bibtex_filters:
+    - htmllinks
   details_layout: bibtex.html
   details_link: ✒︎
+  group_by: type
+  type_names:
+    article: Articles
+  relative: /essayer/stacks.html
+  repository: /assets/files

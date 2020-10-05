@@ -9,6 +9,15 @@ code {
   letter-spacing: 0.2em;
 }
 
+code::before {
+  content: " ";
+  white-space: pre;
+}
+code::after {
+  content: " ";
+  white-space: pre;
+}
+
 nav a {
   text-decoration: none;
   text-transform: lowercase;
@@ -27,6 +36,9 @@ a {
   color: black;
 }
 
+:target, :target a {
+  color: #AA0000;
+}
 
 .dark-mode {
   background-color: black;
@@ -127,12 +139,27 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-h1, h3 {
+h1 {
   margin-bottom: 1em;
+  font-size: 1.2em;
 }
 
-h5 {
+h2 {
   font-family: "Cormorant SC";
+  font-size: 1em;
+}
+
+h3 {
+  font-family: "Cormorant SC";
+  font-size: 0.8em;
+}
+
+h4 { font-size: 0.6em; }
+h5 { font-size: 0.4em; }
+h6 { font-size: 0.2em; }
+
+h2.bibliography {
+  margin-top: 2em;
 }
 
 ol.bibliography > li {
@@ -142,4 +169,18 @@ ol.bibliography > li {
 
 ol {
   padding-inline-start: 0em;
+}
+
+.sup-mat {
+  font-family: "Byom Icons";
+  font-size: 0.8em;
+}
+
+#author {
+   border-top: 1px solid black;
+   padding: 0.2em;
+}
+
+#author.dark-author {
+  border-top: 1px solid white;
 }

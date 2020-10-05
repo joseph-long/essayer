@@ -21,6 +21,8 @@
                       .map(e => e.classList.toggle("dark-mode-text", state)));
         var submit = document.querySelector("input[type=submit]");
         submit ? submit.classList.toggle("dark-submit", state) : null;
+        var author = document.getElementById("author");
+        author ? author.classList.toggle("dark-author", state) : null;
         localStorage.dark = state.toString();
       }
       function toggleDarkMode() {

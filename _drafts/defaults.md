@@ -6,7 +6,9 @@ title:    "Defaults"
 The online news ecosystem has, up until very recently, been funded
 predominantly by advertising. For decades, broadcast & print mass media
 companies had enjoyed the undivided attention of the popular mind, and the
-undivided financial support of the advertisers.[^me]
+undivided financial support of the advertisers.
+(Much more about the news business in <a href="/essayer/news.html">this other
+post</a>)
 
 <!-- TK: what happened in between? -->
 
@@ -21,18 +23,19 @@ bemoaned the ill-gotten gains of the tech behemoths, engorged on the
 appropriated labour of those engaged in the real work of newsgathering, much
 of this discourse has also been in reminiscence of the mythical halcyon days,
 when a strong, free press could "speak truth to power" <!-- TK: [citation
-needed] --> à la [*All the President's Men*](#fn:bernstein)[^bernstein].
+needed] --> à la *All the President's Men*.[^watergate]
 
 What the *New York Times* doesn't tell you, when it propagates its
-[*Truth*](#fn:nyt)[^nyt]; what the op-eds don't say, when they opine that ["You
+[*Truth*](https://www.nytco.com/press/nytimes-releases-new-ads-from-the-truth-is-hard-campaign-directed-by-darren-aronofsky/); what the op-eds don't say, when they opine that ["You
 Are the
 Product"](https://theconversation.com/if-its-free-online-you-are-the-product-95182)
 of the social networks, is that the mass media in crisis today was *itself*
-built on selling you, the consumer, as a product to the advertiser[^tdp]. Not
-only were you already the product, the mass media's claims to "truth" and
+built on selling you, the consumer, as a product
+[^wiki-television-delivers-people] to the advertiser.
+Not only were you already the product, the mass media's claims to "truth" and
 "objectivity" were instituted not so much on the grounds of some noble sense of
 journalistic integrity, but more so out of fear of upsetting the paying
-advertiser[^thompson]. <!-- TK: page ref from talese --> As soon as the
+advertiser[^media-future-past]. <!-- TK: page ref from talese --> As soon as the
 newspaper started to derive most of its revenue from the advertiser and not
 from you, the reader, it had already been defanged as a speaker of the people's
 truth.
@@ -56,7 +59,7 @@ operators to specify an instruction for the machine.
 
 The unflattering denotation of the default was probably not lost on early
 designers of computer systems. Bruce Tognazzini, writing design guidelines for
-the Apple *IIe*[^meyers], for instance, opens the section on 'Defaults' (p. 37)
+the Apple *IIe*[^apple-iie-design], for instance, opens the section on 'Defaults' (p. 37)
 thus:
 
 > Please do not ever use the word default in a program designed for humans.
@@ -81,47 +84,45 @@ market: in the case of the First Browser War, the death knell sounded for
 Netscape when Microsoft bundled Internet Explorer into Windows, effectively
 making IE the default, and hence the browser of (lazy consumer) choice. Why
 bother developing a better product when you can just tack it on to your
-already-popular platform, and make all your pre-existing users adopt it?[^ft]
+already-popular platform, and make all your pre-existing users adopt it?[^flex-tape]
 
 
-[^chomsky] [^gtal] [^postman]
+[^watergate]: {% cite watergate %}
+
+[^wiki-television-delivers-people]: {% cite wiki:television-delivers-people %}
+    AFAIK, this short video is the first time that the phrase, "you are the
+    product" gets applied to a form of media. Although the video refers
+    explicitly to TV, the same analysis can certainly apply to any form of
+    media that is (nearly) free to consume—including the newspaper.
+
+[^media-future-past]: {% cite media-future-past %}
+
+[^apple-iie-design]: {% cite apple-iie-design %}
 
 
-[^bernstein]: Bernstein, C. & Woodward, B. (1974). *All the President's men*.
-    New York: Simon and Schuster.
+[^flex-tape]: <img style="height: 5em;" src="{{ site.baseurl }}/assets/images/flex_tape.gif">
 
-[^chomsky]: Herman, E.S., & Chomsky, N. (1988). *Manufacturing consent: The
-    political economy of the mass media.* New York: Pantheon Books.
+<!-- [^chomsky]: Herman, E.S., & Chomsky, N. (1988). *Manufacturing consent: The
+    political economy of the mass media.* New York: Pantheon Books. -->
 
-[^nyt]: New York Times Company, The. (2017, April 21). *NYTimes Releases New
-    Ads from ‘The Truth is Hard’ Campaign, Directed by Darren Aronofsky*.
-    https://www.nytco.com/press/nytimes-releases-new-ads-from-the-truth-is-hard-campaign-directed-by-darren-aronofsky/.
+<!-- [^nyt]: New York Times Company, The. (2017, April 21). *NYTimes Releases New
+    Ads from ‘The Truth is Hard’ Campaign, Directed by Darren Aronofsky*. -->
+<!-- [^gtal]: Talese, G. (2007). *The Kingdom and the Power*. New York:
+    Random House Trade Paperbacks. -->
 
-[^gtal]: Talese, G. (2007). *The Kingdom and the Power*. New York:
-    Random House Trade Paperbacks.
-
-[^thompson]: Thompson, D. (2018, December 31). The Media’s Post-Advertising
+<!-- [^thompson]: Thompson, D. (2018, December 31). The Media’s Post-Advertising
     Future Is Also Its Past. *The Atlantic*.
-    https://www.theatlantic.com/ideas/archive/2018/12/post-advertising-future-media/578917/.
+    https://www.theatlantic.com/ideas/archive/2018/12/post-advertising-future-media/578917/. -->
 
-[^jmt]: Twenge, J.M. (2017, September). Have Smartphones Destroyed a
+<!-- [^jmt]: Twenge, J.M. (2017, September). Have Smartphones Destroyed a
     Generation? *The Atlantic*.
-    https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/.
+    https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/. -->
 
-[^postman]: Postman, N. (2006). *Amusing ourselves to death:
-    Public discourse in the age of show business*. Penguin.
+<!-- [^postman]: Postman, N. (2006). *Amusing ourselves to death:
+    Public discourse in the age of show business*. Penguin. -->
 
-[^tdp]: Television Delivers People. (2020, March 14). In *Wikipedia*.
-    https://w.wiki/e6f. [AFAIK, this short video is the
-    first time that the phrase, "you are the product" gets applied to a form of
-    media. Although the video refers explicitly to TV, the same analysis
-    can certainly apply to any form of media that is (nearly) free to
-    consume—including the newspaper.]
+<!-- [^meyers]: Meyers, J., Tognazzini, B. (1982).
+    [*Apple IIe Design Guidelines*]({{ site.baseurl }}{% link /assets/files/apple-iie-design.pdf %})
+    (p. 37). Apple Computer. -->
 
-[^me]: Much more about the news business [in this other post](link to news.html TK).
-
-[^meyers]: Meyers, J., Tognazzini, B. (1982).
-    [*Apple IIe Design Guidelines*]({{ site.baseurl }}{% link /assets/files/AppleIIeDesignGuidelines.pdf %})
-    (p. 37). Apple Computer.
-
-[^ft]: <img style="height: 5em;" src="{{ site.baseurl }}/assets/images/flex_tape.gif">
+<!-- [^truth-is-paywalled-but-lies-are-free] {% cite truth-is-paywalled-but-lies-are-free %} -->

@@ -15,4 +15,3 @@ layout: default
   {{platform.handle}}
 </a>
 {% endfor %}
-</table>
