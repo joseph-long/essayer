@@ -4,6 +4,7 @@ description: >-
 baseurl: "/essayer"
 url: "https://constellationcolon.github.io"
 permalink: none
+exclude: ["bin"]
 
 collections:
   - books
@@ -14,7 +15,7 @@ linkedin: suhang42
 markdown: Kramdown
 
 scholar:
-  bibliography: bibliography.bib
+  bibliography: "**/*.bib{,tex}"
   bibliography_template: bib
   bibtex_filters:
     - htmllinks

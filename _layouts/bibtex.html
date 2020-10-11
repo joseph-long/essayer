@@ -8,3 +8,21 @@ layout: essai
 {% capture this_book %}{{ site.books | where: "key", page.entry.key | first }}{% endcapture %}
 {{ this_book | markdownify }}
 </div>
+
+<div style="margin-top: 3em;">
+<p>{% reference page.entry.key %}</p>
+</div>
+
+{% assign uncite = site.data.uncites[page.entry.key] %}
+<div style="margin-top: 3em;">
+<h2>Referenced in</h2>
+{% if uncite %}
+  {% for post in uncite %}
+    {% for sp in site.posts %}
+      {% assign post_name = sp.url | split: "/" | last | split: "." | first %}
+      {% if post_name == post %}
+        <a href="{{ sp.url | prepend: site.baseurl }}">{{ sp.title }}</a>
+      {% endif %}
+    {% endfor %}    
+  {% endfor %}
+{% endif %}
