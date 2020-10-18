@@ -23,6 +23,7 @@
         submit ? submit.classList.toggle("dark-submit", state) : null;
         var author = document.getElementById("author");
         author ? author.classList.toggle("dark-author", state) : null;
+        try { darkCharts(state); } catch { }
         localStorage.dark = state.toString();
       }
       function toggleDarkMode() {

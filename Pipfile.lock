@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "76e30822a042bdb04d119301179e670377aa6c5017252989a5958e9a24e29c76"
+            "sha256": "c1c486ae352a347216f21589926f920e9023be3360e9f25342a437d68cec4ed8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +32,13 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==20.2.0"
         },
+        "boltons": {
+            "hashes": [
+                "sha256:3dd8a8e3c1886e7f7ba3422b50f55a66e1700161bf01b919d098e7d96dd2d9b6",
+                "sha256:dd362291a460cc1e0c2e91cc6a60da3036ced77099b623112e8f833e6734bdc5"
+            ],
+            "version": "==20.2.1"
+        },
         "entrypoints": {
             "hashes": [
                 "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19",
@@ -39,6 +46,21 @@
             ],
             "markers": "python_version >= '2.7'",
             "version": "==0.3"
+        },
+        "face": {
+            "hashes": [
+                "sha256:3790311a7329e4b0d90baee346eecad54b337629576edf3a246683a5f0d24446",
+                "sha256:7d59ca5ba341316e58cf72c6aff85cca2541cf5056c4af45cb63af9a814bed3e"
+            ],
+            "version": "==20.1.1"
+        },
+        "glom": {
+            "hashes": [
+                "sha256:5fa3a9d99c7f3e5410a810fa8a158c0f71e39036c47b77745c7f2e4630372f82",
+                "sha256:6422e442ef17fe84037570ac1fba1a5e47d22743d9766dbf0f36964405428bb0"
+            ],
+            "index": "pypi",
+            "version": "==20.8.0"
         },
         "jinja2": {
             "hashes": [

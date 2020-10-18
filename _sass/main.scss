@@ -115,6 +115,10 @@ sub {
 
 /* font styles */
 .sc {
+  text-transform: uppercase;
+}
+.essai .sc {
+  text-transform: initial;
   font-family: 'Cormorant SC';
 }
 

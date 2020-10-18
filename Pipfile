@@ -11,6 +11,7 @@ pybtex = "*"
 pandas = "*"
 altair = "*"
 vega-datasets = "*"
+glom = "*"
 
 [requires]
 python_version = "3.8"
