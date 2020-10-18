@@ -14,15 +14,24 @@ layout: essai
 </div>
 
 {% assign uncite = site.data.uncites[page.entry.key] %}
+{% if uncite %}
 <div style="margin-top: 3em;">
 <h2>Referenced in</h2>
-{% if uncite %}
   {% for post in uncite %}
     {% for sp in site.posts %}
       {% assign post_name = sp.url | split: "/" | last | split: "." | first %}
-      {% if post_name == post %}
+      {% if post == sp.url %}
         <a href="{{ sp.url | prepend: site.baseurl }}">{{ sp.title }}</a>
       {% endif %}
-    {% endfor %}    
+    {% endfor %}
   {% endfor %}
+{% endif %}
+
+{% assign see_alsos = site.data.see_alsos[page.entry.key] %}
+{% if see_alsos %}
+<div style="margin-top: 3em;">
+<h2>See also</h2>
+{% for see_also in see_alsos %}
+  <a href="{{ see_also.path | prepend: site.baseurl }}">{{ see_also.title }}</a>
+{% endfor %}
 {% endif %}

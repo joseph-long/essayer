@@ -24,5 +24,6 @@ scholar:
   group_by: type
   type_names:
     article: Articles
+    inproceedings: Conference Proceedings
   relative: /essayer/stacks.html
   repository: /assets/files

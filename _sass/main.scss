@@ -1,21 +1,11 @@
 body {
-  font-family: "DM Mono", monospace;
+  font-family: "Space Mono", monospace;
   font-size: 11px;
 }
 
 code {
-  font-family: "DM Mono", monospace;
+  font-family: "Space Mono", monospace;
   font-size: 0.8em;
-  letter-spacing: 0.2em;
-}
-
-code::before {
-  content: " ";
-  white-space: pre;
-}
-code::after {
-  content: " ";
-  white-space: pre;
 }
 
 nav a {
