@@ -8,39 +8,12 @@ import pandas as pd
 from vega_datasets import data
 
 
-COLORS = dict(
-    LIGHT=[
-        "#AC0A00",
-        "#FFBD10",
-        "#370855",
-        "#4F8F00",
-        "#DD5300",
-        "#81007F",
-        "#651A01",
-        "#929000",
-        "#240D00",
-        "#9F760B",
-    ],
-    DARK=[
-        "#FF2F92",
-        "#946B2D",
-        "#2647B0",
-        "#247F32",
-        "#4F6DD3",
-        "#5D9B66",
-        "#D0D0D0",
-        "#89CCEB",
-        "#BAB27D",
-        "#FF7E79",
-    ],
-)
-
-
 ESSAYER_BASE_CONFIG = {
     "width": "container",
     "height": "container",
     "config": {
         "background": None,
+        "font": "Space Mono",
         "title": {
             "font": "Space Mono",
             "subtitleFont": "Space Mono",
@@ -58,20 +31,23 @@ ESSAYER_BASE_CONFIG = {
             "titleFontWeight": "normal",
         },
         "text": {"font": "Space Mono"},
+        "padding": 0,
     },
 }
 
 
 def essayer_light():
     config = ESSAYER_BASE_CONFIG.copy()
-    config["config"].update({"range": {"category": COLORS["LIGHT"]}})
+    config["config"]["mark"] = {"color": "black"}
+    config["config"]["text"] = {"color": "black"}
     return config
 
 
 def essayer_dark():
     config = ESSAYER_BASE_CONFIG.copy()
     config["config"]["group"] = {"strokeOpacity": 0}
-    config["config"]["range"] = {"category": COLORS["DARK"]}
+    config["config"]["mark"] = {"color": "white"}
+    config["config"]["text"] = {"color": "white"}
     config["config"]["title"]["color"] = "white"
     config["config"]["style"] = {
         "guide-label": {"fill": "white"},
@@ -93,7 +69,7 @@ df = (
         columns={
             "direct": "Direct",
             "fb": "Facebook",
-            "goog": "Google",
+            "goog": "Google Search",
             "gcs": "Google Chrome Suggestions",
             "goognews": "Google News",
             "twtr": "Twitter",
@@ -136,7 +112,7 @@ def plot(theme: str):
             x=alt.X("DATE:T", axis=alt.Axis(format="%b %y")),
             y="WEEKLY REFERRALS (BILLIONS):Q",
         )
-        .properties(title="REFERRED MOBILE VISITS TO NEWS SITES, BY SOURCE")
+        .properties(title="MOBILE VISITS TO NEWS SITES, BY SOURCE")
     )
     points = (
         base.mark_circle()
@@ -146,7 +122,7 @@ def plot(theme: str):
     )
     lines = base.mark_line().encode(
         size=alt.condition(~highlight, alt.value(1), alt.value(3)),
-        color=alt.Color(
+        strokeDash=alt.StrokeDash(
             "REFERRER:N",
             legend=alt.Legend(
                 orient="bottom", columns=4, direction="horizontal"

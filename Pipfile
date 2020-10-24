@@ -12,6 +12,7 @@ pandas = "*"
 altair = "*"
 vega-datasets = "*"
 glom = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.8"

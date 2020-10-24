@@ -1,6 +1,7 @@
 body {
   font-family: "Space Mono", monospace;
   font-size: 11px;
+  text-underline-offset: 0.2em;
 }
 
 code {
@@ -111,6 +112,19 @@ sub {
 .image > figcaption {
   font-family: 'Cormorant Upright';
   font-size: 0.7em;
+}
+
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption {
+  font-size: 0.5em;
+  font-family: "Space Mono";
+  text-align: right;
 }
 
 /* font styles */

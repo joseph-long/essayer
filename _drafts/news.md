@@ -56,6 +56,11 @@ truth.
 Much like the way that we are (not) dealing with any of our many chronic crises
 just now coming to a head, 
 
+- emotional manipulation by tech companies whose product is ~advertising~ you -
+  already true for news publishers long ago. emotional stories: wars, crime,
+  sports, etc. sell papers and boost ratings. climate change, meh, not so much
+  <!-- (needs much more expansion) -->
+
 [^watergate]: {% cite watergate %}
 
 [^wiki-television-delivers-people]: {% cite wiki:television-delivers-people %}
