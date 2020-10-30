@@ -1,7 +1,21 @@
+:root {
+  --ice: rgb(241, 247, 249);
+  --fog: rgb(219, 220, 228);
+  --steel: rgb(161, 163, 173);
+  --stormborn: rgb(76, 78, 101);
+  --chocolate: rgb(11, 5, 1);
+  --cedar: rgb(32, 25, 11);
+  --olive: rgb(77, 66, 44);
+  --parchment: rgb(208, 168, 122);
+}
+
+
 body {
   font-family: "Space Mono", monospace;
   font-size: 11px;
   text-underline-offset: 0.2em;
+  background-color: var(--ice);
+  color: var(--stormborn);
 }
 
 code {
@@ -24,20 +38,16 @@ nav a {
 }
 
 a {
-  color: black;
-}
-
-:target, :target a {
-  color: #AA0000;
+  color: var(--stormborn);
 }
 
 .dark-mode {
-  background-color: black;
-  color: white;
+  background-color: var(--chocolate);
+  color: var(--parchment);
 }
 
 .dark-mode-text {
-  color: white;
+  color: var(--parchment);
 }
 
 .essai {
@@ -170,9 +180,23 @@ h2.bibliography {
   margin-top: 2em;
 }
 
-ol.bibliography > li {
+div.bibliography > div {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.essai-bibliography {
+  font-size: 0.7em;
+  margin-top: 5em;
+}
+
+.citation {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 0.75em;
+  top: -0.5em;
 }
 
 ol {
@@ -183,12 +207,16 @@ ol {
   font-family: "Byom Icons";
   font-size: 0.8em;
 }
+.wiki {
+  font-family: "Linux Libertine";
+  letter-spacing: -0.8ch;
+}
 
 #author {
-   border-top: 1px solid black;
+   border-top: 1px solid var(--stormborn);
    padding: 0.2em;
 }
 
 #author.dark-author {
-  border-top: 1px solid white;
+  border-top: 1px solid var(--parchment);
 }

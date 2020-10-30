@@ -32,11 +32,19 @@ textarea:focus, input:focus{
     outline: none;
 }
 
+input::placeholder, textarea::placeholder {
+  color: var(--steel);
+}
+
+.dark-mode input::placeholder, .dark-mode textarea::placeholder {
+  color: var(--olive);
+}
+
 div[spacer] { height: 1em; }
 
 iframe { display: none; }
 
 .dark-submit {
-  color: white;
-  border-color: white;
+  color: var(--parchment);
+  border-color: var(--parchment);
 }
