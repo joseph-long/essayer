@@ -17,15 +17,17 @@ markdown: Kramdown
 scholar:
   bibliography: "**/*.bib{,tex}"
   bibliography_template: bib
+  bibliography_list_tag: div
+  bibliography_item_tag: div
   bibtex_filters: [htmllinks]
   details_layout: bibtex.html
   details_link: ✒︎
   group_by: type
+  repository: /assets/files
   type_order: [book, article, wiki, inproceedings, manual, song]
   type_names:
     article: Articles
     inproceedings: Conference Proceedings
-    song: Songs
     wiki: Wikipedia Entries
-  relative: /essayer/stacks.html
-  repository: /assets/files
+    documentary: Documentaries
+  style: /assets/csl/apa.csl  

@@ -3,4 +3,4 @@ title: The Stacks
 layout: essai
 ---
 
-{% bibliography %}
+{% bibliography --query @*[stacks] %}
