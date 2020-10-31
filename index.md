@@ -1,6 +1,6 @@
 ---
 title: Des essais
-layout: default
+layout: base
 ---
 
 {% for post in site.posts %}

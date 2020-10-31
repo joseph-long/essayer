@@ -1,6 +1,6 @@
 ---
 title: About
-layout: default
+layout: base
 ---
 
 <link rel="stylesheet" type="text/css" href="assets/css/about.css">

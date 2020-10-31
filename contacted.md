@@ -1,6 +1,6 @@
 ---
 title: You'll get mail!
-layout: default
+layout: base
 ---
 
 <div style="text-align: center;">
