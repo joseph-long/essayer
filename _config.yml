@@ -1,13 +1,11 @@
 title: Essayer
-description: >-
-  Lorem ipsum dolor sit amet
-baseurl: "/essayer"
-url: "https://constellationcolon.github.io"
+description: Try again. Fail again. Fail better.
+baseurl: /essayer
+url: https://constellationcolon.github.io
 permalink: none
-exclude: ["bin"]
+exclude: [bin]
 
-collections:
-  - books
+collections: [books]
 
 github: constellationcolon
 linkedin: suhang42
@@ -20,11 +18,11 @@ scholar:
   bibliography_list_tag: div
   bibliography_item_tag: div
   bibtex_filters: [htmllinks]
-  details_layout: bibtex.html
+  details_layout: bib-detail.html
   details_link: ✒︎
   group_by: type
   repository: /assets/files
-  type_order: [book, article, wiki, inproceedings, manual, song]
+  type_order: [book, article, wiki, inproceedings, manual]
   type_names:
     article: Articles
     inproceedings: Conference Proceedings
