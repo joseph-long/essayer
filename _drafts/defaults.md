@@ -505,39 +505,66 @@ order in Taiwan (New Bloom, sprouting from the seeds of the Sunflower movement)
 , or banding together in diaspora to resist the hegemonic repression of the
 Chinese state (Lausan, Hong Kong).
 
-currently supporting: the guardian, new naratif, kirsten han's milo peng fund
-also sounds exciting: new bloom, lausan ("can't be financially unsustainable
-if you didn't have money in the first place!"), but you should go look for
-whichever media collective resonates with your lived experience, who are
-carving out paths you'd like for the world to take (also a little worried
-about: substack newsletter monopoly) (idk about medium, never had much
-affinity with it, seems kinda dead anyway) the membership project, der
-correspondent (controversial)
+How is this participatory journalism different from just posting on social
+media? The social media networks of our day have found their niche (or rather,
+their scale), in exploiting the "network effects" that venture capitalists
+love so much. It is exactly this scale that enables their out-sized advertising
+revenues, and with no competitors on the horizon (other than newer and danker
+TikToks), it is unlikely that they would switch revenue models any time
+soon[^jack].
 
-how is this different than social media? as discussed above, still an
-ad-funded thing, incentivises avocado toast posts (not that i'm against people
-making / eating delicious avocado toast, it's just that our attentional
-airspace is too polluted already with clickbait and infotainment as it is to
-devote any more energy to your conspicuous consumption). though jack dorsey
-has floated idea for subscription twitter?? (not sure how that would work)
-anyway, influencers are going the way of wirecutter. (though to be sure, i
-sometimes hear of capitalist satire insurrections on tiktok so maybe dem teens
-there would figure out how to make that werk)
+This means that, for the foreseeable future, the dynamics of these platforms
+would continue to favour the sorts of attention-seeking Content™ we so
+urgently need to get rid of. Even though any media operation will, like it or
+not, need to rely upon at least some manner of social network, online or off,
+in order to recruit contributors and audiences, Content™ created solely for
+the purposes of going viral is of a completely different nature than
+participatory reporting. To understand the former, one need only think of what
+BuzzFeed, NowThis, or social media influencers continually churn out:
+clickbait, infotainment, and fuel for conspicuous consumption. All predicated
+on programmatic or direct ad revenue from some corporation or another.
 
-propaganda model: news as industry necessitates not just sustainable revenue
-stream, but also sustainable event stream => outsize influence of official pr
-we need to make our own news—and NOT just whatever the fuck avocado toast you
-ate for breakfast please. i'd like to hear about the questioning thoughts
-that flashed across your mind for a brief second before you tucked it away
-again securely in those dusty recesses of your mind reserved for sharp objects.
+Participatory journalism, on the other hand, is more interested in delving
+deep into everyday concerns of everyday people, concerns so repressed and
+glossed over by dominant corporate media narratives that they sour and ferment
+in people's hearts, building up unreleased pressure and resentment over time.
+Concerns that, again and again, have proven to be dangerous and explosive when
+they have gone un-addressed. It is, I think, not always enough to conduct
+citizen journalism in the form of verbatim recordings of events IRL, even
+though it has undoubtedly produced some admirable results. Human events attain
+their significance only in their full context, and for better or for worse we
+are creatures of narrative. To piece together a comprehensive and
+comprehensible picture requires time, effort, access, and in some cases,
+experience, which not everyone has equal access to. It is only when
+journalists—who have the experience, and can be fairly compensated for their
+time and effort—work with the people—doing the living and the celebrating and
+the suffering, who need and want to document and relate their lived
+experiences—that we can truly address the informational inequalities that
+dog us and our communities.
 
-reclaiming democracy from the technocracy. reclaiming our very own pulse. i'm
-excited about the long tail of people making their own news, who'd never use
-chartbeat, perhaps because it's too expensive, perhaps because they're too
-busy making their audiences the news makers and the traditional news makers
-their audiences to pay that much attention to attention for advertisers' sakes.
+To put it bluntly: I don't care about your posts about avocado toast. (Nothing
+against avocado toast—I love a good one myself.) We have too many posts about
+avocado toast taking up our attention and airspace, choking out the important
+issues we really need to be grappling with: our profligate consumption, our
+yawning inequalities, all of the negative "externalities" we wreck upon our
+neighbours and our planet, hidden away by the distance and length of the
+global supply chain and what we too commonly consider to be the "trivial"
+activism of local groups. Because avocado toast is all we're allowed to talk
+about, because it's not going to ruffle any feathers, because we're addicted
+to the dopamine hits from the likes and re-tweets and the admiring jealousy in
+the replies, and so we do it for the gram. Because avocado toast is safe for
+our reputations, safe for the capitalist status quo, safe for keeping us
+despairing, blind to our collective power if we just *bothered*. I'd like to
+hear about those questioning thoughts, those moments of non-comprehension that
+flashed across your mind for just a brief second before you tucked it away
+again securely in those dusty recesses of your mind reserved for sharp
+objects.
 
-let's go brew up some tea of our own.
+I'm exciting about reclaiming democracy from the technocracy, about reclaiming
+our very own pulse. I'm excited about the long tail of people making their own
+news, who'd never use Chartbeat, perhaps because it's too expensive, perhaps
+because they're too busy making their audiences the news makers and the news
+makers their audiences to pay attention to superficial attention.
 
 [^ad-rev]: As one point of reference: in 1966, the NYT was
     [N° 404 on the Fortune 500](https://archive.fortune.com/magazines/fortune/fortune500_archive/snapshots/1966/1380.html),
@@ -607,6 +634,10 @@ let's go brew up some tea of our own.
     incentivise websites to use Google AMP to be more likely to make it onto
     the feed and further entrench their hold on the web? (Well, most likely,
     it just was a convenient confluence of all of the above.)
+
+[^jack]: Well, technically, Twitter floated the idea of a subscription Twitter
+    a while back, but IDK how that would ever work out
+<!-- TK: citation -->
 
 [^media-startups-nyc]: Well, there's a little bit more that happened with 
     VC-funded media startups in NYC (think Buzzfeed, Vox, Gawker, et al.)
