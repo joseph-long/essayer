@@ -5,7 +5,7 @@ layout: essai
 <h3><span id="author">{{ page.entry.author }}</span></h3>
 
 <div>
-{% capture this_book %}{{ site.books | where: "key", page.entry.key | first }}{% endcapture %}
+{% capture this_book %}{{ site.details | where: "key", page.entry.key | first }}{% endcapture %}
 {{ this_book | markdownify }}
 </div>
 

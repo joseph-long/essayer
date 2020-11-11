@@ -5,7 +5,7 @@ url: https://constellationcolon.github.io
 permalink: none
 exclude: [bin]
 
-collections: [books]
+collections: [details]
 
 github: constellationcolon
 linkedin: suhang42

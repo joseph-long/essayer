@@ -51,7 +51,7 @@ a {
 }
 
 .essai {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', serif, 'STFangSong';
   font-size: 1.56em;
 }
 
@@ -106,7 +106,8 @@ sub {
   text-indent: initial;
 }
 
-.main-text>p:first-child, .main-text>div>p:first-child {
+.main-text>p:first-child,
+.main-text>div>p:first-child{
   margin-top: 3em;
 }
 
@@ -203,6 +204,10 @@ ol {
   padding-inline-start: 0em;
 }
 
+li {
+  margin: 0.5em 0;
+}
+
 .sup-mat {
   font-family: "Byom Icons";
   font-size: 0.8em;
@@ -210,6 +215,18 @@ ol {
 .wiki {
   font-family: "Linux Libertine";
   letter-spacing: -0.8ch;
+}
+.cw > .cw-text {
+  display: none;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: var(--steel);
+}
+.dark-mode .cw > .cw-text {
+  color: var(--olive);
+}
+.cw:hover > .cw-text {
+  display: inline;
 }
 
 #author {
