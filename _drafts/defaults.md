@@ -3,16 +3,16 @@ layout:   essai
 title:    "Defaults"
 ---
 
-You know that feeling you get about a familiar word after saying it a couple
-of times in rapid succession? As if it were a complete stranger you were now
-just meeting for the first time? The word _default_ became such a familiar
-stranger to me, as I was looking into referral sources to news websites[^ref].
-Referral traffic had been something of an evergreen subject while I was a data
-scientist at Chartbeat[^cb]. Facing down the adpocalypse[^news], publishers
-were obsessed with the latest referral trends, restless in their search for
-the next big source of eyeballs. Part of my job was to wrangle a rubbery
-spaghetti of referral URLs into comprehensible insights about how much traffic
-each website or app was sending to publishers.
+You know that feeling you get about a familiar word after saying it a couple of
+times too many? As if it were a complete stranger you were now just meeting for
+the first time? The word _default_ became such a familiar stranger to me, as I
+was looking into referral sources to news websites[^ref]. Referral traffic had
+been something of an evergreen subject while I was a data scientist at
+Chartbeat[^cb]. Facing down the adpocalypse[^news], publishers were obsessed
+with the latest referral trends, restless in their search for the next big
+source of eyeballs. Part of my job was to wrangle a rubbery spaghetti of
+referral URLs into comprehensible insights about how much traffic each website
+or app was sending to publishers.
 
 Unsurprisingly, the top 2 spots in the referral rankings invariably went to
 the duopoly, Google and Facebook, driving an order of magnitude more traffic
@@ -93,7 +93,7 @@ court summons.
 When we think of defaults today--factory defaults, default search engines,
 default home-pages, we think first and foremost of their pre-set nature. Yet,
 buried underneath all those dusty menus full of configurable but untouched
-options lies our true Default, that subliminal abdication of our
+options lies our true Default, that unwitting abdication of our
 responsibility as human operators to specify an instruction for the machine.
 
 The unflattering denotation of the default was probably not lost on early
@@ -114,15 +114,6 @@ the Apple *IIe*{% cite apple-iie-design %}, for instance, opens the section on
 Bruce is probably out there somewhere today, spinning with confusion and
 anger.
 
-Here's where the trap of the default lies: in failing to specify an
-instruction for the machine—a tool we are supposed to be using for our ends—we
-do not simply fall prey to the control of the machine. In fact, such a
-statement is an absurdity; the machine didn't build itself, people in search
-of profits built the machine. What we in fact falling prey to, without
-realising, are the machinations of the wizards behind the curtains: the tech
-executives, product managers, and engineers dictating the default states of
-the apps and feeds that have come to occupy every waking moment of our lives.
-
 <div class="section-break">&</div>
 
 I already hear you protesting: Su, what do you have against feeds? Feeds are
@@ -135,13 +126,15 @@ doing anything else—pragmatism, not idealism!
 
 Humour me for a minute, and think back to the last time you (doom)scrolled
 through a news feed[^feed]; Facebook, Twitter, whichever, doesn't matter. Of
-the news items you came across, how many did you simply scan over the
-headlines and preview image or autoplay clip of? How many did you actually
-click through to peruse? Of those you perused, how many would you say had a
-direct impact on your life, that you've done something differently on account
-of having read or watched it? Or was it just another piece of trivia you
-brought up as a bit of idle chit-chat as you ran into other people that day?
-[To paraphrase NPR, who reads anymore?](https://n.pr/2J4ZKjx)
+the news items you came across, how many did you simply scan over the headlines
+and preview image or autoplay clip of? How many did you actually click through
+to peruse? Of those you perused, how many would you say had a direct impact on
+your life, that you've done something differently on account of having read or
+watched it? Or was it just another piece of trivia you instinctively retweeted,
+and then brought up as a bit of idle chit-chat as you ran into other people
+that day? [To paraphrase NPR, who reads anymore?](https://n.pr/2J4ZKjx)
+
+<!-- discuss news as representation of reality à la Lippmann -->
 
 What news, as we commonly encounter it today, does one actually _need_ to
 know? For Neil Postman, the answer to this question was, not very much. Not
@@ -214,9 +207,10 @@ stans](https://hbr.org/2016/05/research-the-link-between-feeling-in-control-and-
 in doing so extract more ad revenue for the tech giants.
 
 But insofar as journalists have dutifully documented these abuses of tech,
-written up (rightly) critical thinkpieces on the impacts that tech is having
-on our attention spans and our mental health{% cite
-smartphones-destroyed-generation %}, as much as they have (also rightly)
+written up (rightly) critical think-pieces on the impacts that tech is having
+on [our attention spans and our mental
+health](https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/),
+as much as they have (also rightly)
 bemoaned the ill-gotten gains of the tech behemoths, [engorged on the
 appropriated labour of those engaged in the real work of newsgathering and
 reporting](https://www.reuters.com/article/us-australia-media-regulator-idUSKCN24V3UP),
@@ -232,36 +226,318 @@ Product"](https://theconversation.com/if-its-free-online-you-are-the-product-951
 of the social networks, is that the mass media in crisis today was *itself*
 established on selling you, the consumer, as a
 product[^television-delivers-people] to the advertiser. Not only were you
-already the product, the mass media's claims to "truth" and "objectivity" were
-instituted not so much on the grounds of some noble sense of journalistic
-integrity, but more so out of fear of upsetting the paying advertiser{% cite
-media-future-past %}, or losing access to valuable high-level sources{% cite
-manufacturing-consent %}. As soon as a medium started to derive most of its
-revenue from the advertiser[^ad-rev] and not from you, the reader, it had
-already been defanged as a speaker of the people's truth.
+already the product, the mass media's claims to "truth" and
+"objectivity"[^objectivity] were instituted not so much on the grounds of some
+noble sense of journalistic integrity, but more so out of fear of upsetting
+the paying advertiser{% cite media-future-past %}, or losing access to
+valuable high-level sources{% cite manufacturing-consent -L chapter -l 1 %}.
+As soon as a medium started to derive most of its revenue from the
+advertiser[^ad-rev] and not from you, the reader, it had already been de-fanged
+as a speaker of the people's truth.
 
-_Plus ça change_; the ways in which we receive and perceive the world today
-may look completely alien to an observer living just a decade or two ago, but
-the underlying ad-funded topography that information has to traverse to get to
-us has remained the same. The same invisible hand of advertising continues to
-direct which pieces of information we pay attention to—and which inconvenient
-truths get magically hand-waved into obscurity. Though it may be an algorithm
-now curating your personalised Google feed[^personalised] by churning through
+## The more things change...
+
+The ways in which we receive and perceive the world today may look completely
+alien to an observer living just a decade or two ago, but the underlying
+ad-funded terrain that information has to traverse to get to us has remained
+the same. The same invisible hand of advertising continues to direct which
+pieces of information we pay attention to—and which inconvenient truths get
+magically hand-waved into obscurity. Though it may be an algorithm now
+curating your personalised Google feed[^personalised] by churning through
 terabytes upon terabytes of clickstream data, where before it was experienced
-editors handpicking which stories deserved a spot on the frontpage of the
-newspaper, the salaries paid out to tech employees who built the feeds still
-ultimately issue from the deep pockets of corporate marketing departments,
-just the same as to the editors who baptise stories as "newsworthy". The
-default feed has vied to replace the frontpage, with the structural incentive
-to mine human attention more naked than ever before.
+editors handpicking stories deserving of a spot on Page One, the salaries paid
+out to tech employees who built the feeds still ultimately issue from the deep
+pockets of corporate marketing departments, just the same as to the editors
+who baptise stories as "newsworthy". The default feed has vied to replace the
+frontpage, with the structural incentive to mine human attention more naked
+than ever before.
 
+Again, I hear you shifting in your seat—well, _so what_ if I actually am the
+product? They're corporations, they exist to make money, and besides, it's not
+like I'm not getting something out of this exchange—my attention, for their
+information, (or entertainment, that I sorely need after a long, hard slog at
+work).
 
+To assume that such an exchange is fair is a dangerous thing to do; that some
+expert out there, human or machine, can automatically know—far removed from
+your context—what you, a living, breathing person with your own unique set of
+experiences, needs to engage with in order to realise your dreams and vanquish
+your fears. Much as tech pundits may claim that the fracturing of the mass,
+broadcast media into personalised (social) media feeds represents a
+repudiation of that traditional regime of top-down mass communication, what
+you're arguably getting is still what the averaged consumer a system has
+deemed to be similar to you instinctively wants in a positive feedback loop of
+infotainment. Your eyeballs, compulsively trained on their Content™, is not an
+equal exchange as such—far from it. The more we lean into information as
+entertainment and distraction, the less we understand _why_ we're living
+through this shitshow of a year called 2020: global pandemic, social
+inequality, breakdown of the body politic, unprecedented fires in Australia,
+California, and the Amazon, unprecedented numbers of named storms in the
+Atlantic, unprecedented environmental destruction and extinction on all
+fronts—and the more we despair of being able to _do_ anything about it.
 
-- media effects of default homepage
-- climate change ratings killer
-- reader supported, participatory journalism / activism
-- attention bubble—not likely, advertising is a cockroach.. or is it the consumers who are roaches?
+I bring up the uniqueness of the human experience here not as an assertion of
+some individual "unique snowflake" status (in fact, I've found that such
+assertions often produce the opposite effect in individuals proclaiming such
+screeds, who happily embrace the marketers' and technocrats' segmented
+representations of people as mere "identities"), but as an assertion of our
+humanity, our agency, and our inherent ability to build and affect our
+collective social reality with our words and actions. I say this in opposition
+to that all-too-modern view of the individual as an instantiation of an
+atomised agent, acting alone in some cold, absolute, and unchanging world.
 
+For this is exactly where the trap of the default lies: in failing to specify
+an instruction for the machine—a tool we are supposed to be using for our
+ends—we do not simply fall prey to the control of some magical machine. <!--
+need to elaborate on this romanticisation in culture/fiction --> Such a
+statement is an absurdity; the machine didn't build itself, people in search
+of profits built the machine. What we in fact fall prey to, are the
+machinations of the wizards behind the curtains: the tech executives, product
+managers, and engineers dictating the default states of the apps and feeds
+that have come to occupy every waking moment of our lives. To paraphrase
+Tognazzini, the default is what we've accepted right before the technocrats
+stole our powers to self-determination.
+
+Beyond just that tired binary between human or dancer, this matters beyond
+even your personal choice whether to sink into that polyester bosom of the
+nanny state; to slumber through our lives, dream-like, all watched over by
+machines of loving grace. This is that pivotal moment where our species makes
+its choice, of whether to go out in the literal fire and brimstone of the
+Anthropocene, to relegate ourselves to the trashheap of evolutionary history,
+or to call upon those faculties that we have so exalted for millennia as being
+uniquely human. To reason, to imagine, to band together, and most of all, to
+overcome. Because to choose the machine out of sloth is no longer simply some
+naughty exhibition of a human vice. Knowing what we collectively know today,
+about all the ways in which our profligate consumption is destroying us and
+ours, choosing the machine is to choose to wilfully snuff out that
+long-burning flame of the human spirit, to extinguish the spirits of our plant
+brothers and animal sisters of the more than human planet who we grew up with
+over the last few million years.
+
+What they give you is fragmented factoids stripped of personal context or
+human meaning. <!-- They give you Humpty Dumpty after he's fallen off the
+wall, and they render you no help whatsoever in piecing him back again. -->
+Another war in war-torn Afghanistan. More sanctions against nuclear-aspirant
+Iran. They give you the aesthetic surface, the penis fencing of the governing
+minority, and in doing so drum up continuing support for ever-escalating
+military expenditure in an armada of profitable wars without horizon.
+
+But what happens to the majority of the people living all over the world—in
+both the countries doing the invading and those getting invaded—who didn't
+choose this war-path their tax dollars are financing? To those precipitating
+actions by the Anglophone powers to disrupt inchoate, legitimate democracies,
+stretching back to the Cold War and even before, that fostered these very
+dictators they're supposedly fighting against today?
+
+The most egregious example of the harms of relying on the attention merchants
+for an accurate representation of reality comes in the form of our gravest
+challenge today: the climate crisis[^climate-misnomer]. This is the perfect storm of mis-aligned 21st century incentives:
+
+1.  **A planetary-scale disaster unfolding in slow motion,** with little of
+    the quick or easy visual- or sound-bites so suited our attention-deficient
+    consciousnesses. One can only show a hockey stick graph so many times, and
+    images of polar bears seem impossibly far removed. With the Cold War, it
+    was at least easy for the average person to immediately comprehend the
+    consequences of a misstep: a mushroom cloud, and then—nothing. While there
+    are (sadly) certainly more examples at hand today that are well suited for
+    the news cycle (e.g. the orange-red skies of the Australian and
+    Californian wildfires this year), how many news outlets are actually
+    drawing those links between these tragedies and the consequences of our
+    actions?
+
+1.  **"Climate change is a ratings killer" — Chris Hayes** The climate crisis
+    is undoubtedly a story that begins with our poor life choices, and can
+    only end when we collectively acknowledge and re-evaluate them. Too often,
+    this re-evaluation is cast as teeth-pulling (reducing consumption on all
+    fronts, portrayed as painful despite the spiritual hollowness of modern
+    consumer culture), individual consumer choice (paying more for renewable
+    energy—a patent lie now that renewables are actually cheaper than fossil
+    fuels) and political gridlock (COPXX; no further comment here). This has
+    had the effect of turning viewers off, a no-no for any advertising-based
+    business whose primary KPI is engagement. Some believe this is primarily
+    because these programmes have tended to be [presented
+    poorly](https://grist.org/article/is-climate-change-a-ratings-killer-or-is-something-wrong-with-for-profit-media/).
+    Others believe it to be too depressing—but this begs the question of how
+    such a crisis can be more depressing than the endless parade of wars in
+    the Middle East on show in the mass media? In the grand scheme of things,
+    far too few outlets recognise this as [opportunity to
+    rebuild](https://www.theguardian.com/environment/2019/apr/22/why-is-the-us-news-media-so-bad-at-covering-climate-change)
+    our economies in a way that is more just and equitable for people and
+    living beings all across this Earth.
+
+1.  **Politically sensitive implications** The climate crisis is almost
+    certainly going to bring more climate refugees to the doorsteps of other
+    cities, states, and nations as time goes on; the climate migrations have
+    already started. 
+
+1.  **Ideologically sensitive implications** At the heart of it, the climate
+    crisis is a story about the consequences of greed, of the lie of infinite
+    economic growth on a finite planet. We've lived with this story for so
+    long—so many, like I, was brought up on it, spoon-fed to us as
+    school-children—that we've forgotten that it was just a story of hope we
+    told ourselves in an age when we were so small in number as to be
+    negligible on this planet.
+
+This instinct has extended even to broadcasters with a scientific
+background. Sir David Attenborough, perhaps the most celebrated natural
+historian on television of our times, was saying just 2 years ago that
+reminding viewers of the extinction crisis could become a "[real
+turn-off](https://www.theguardian.com/environment/2018/nov/04/attenborough-dynasties-ecological-campaign)". Thankfully, he
+has recently been [less inclined to continue tiptoeing around the problem](https://www.theguardian.com/environment/2020/sep/18/dont-look-away-now-are-viewers-finally-ready-for-the-truth-about-nature-aoe).
+
+The way we live today is caricatured perfectly by the This Is Fine meme. Our
+house is on fire, and yet all we do is to remain at the table saying, "This
+is fine". During the peak of the wildfire season, San Francisco skies were
+smogged blood-orange, and yet all the discourse we'd managed was to fly a drone
+over the apocalyptic city and set the scenes to music from Bladerunner. We
+pretend we're living in some grand disaster as we see in the movies, and yet
+every day of this pandemic we wish fervently for a quick return to normal.
+This is but wishful thinking. We live today, at the confluence of multiple
+disaster scenarios, and if 2020 were a movie before this year had commenced
+people would have laughed at the absurdity of the script. Spoiler alert: it's
+business as usual that's brought us here. We cannot, must not, return to
+pre-2020 "normal".
+
+<div class="section-break">&</div>
+
+So where do we go from here? Prudent polemicists generally refrain from
+prescribing solutions to the ills that they denounce. This is probably wise,
+since none of us can predict the future. But as this is an essay lamenting
+the default of inaction, I shall here, in the fullness of my youth and
+immaturity, point to developments I'm excited about, and where I think the way
+out of our slumber lays.
+
+Ad-revenue, for better or for worse, is now out of the question for media
+outlets fighting tooth and nail now to survive. The instinct for many has been
+to put up paywalls, the most obvious way of transitioning to a
+reader-supported revenue model. Yet, restricting access to news and
+information surely defeats the purpose, on some levels of public-service
+journalism. When elite publications put up walls to information, they serve
+only to further entrench the informational inequalities that plague our
+society (so much for the liberal bias of the media!) As Nathan Robinson put it
+in his excellent article, Truth is Paywalled but the Lies are
+Free[^truth-is-paywalled-but-lies-are-free], it's little wonder that the likes
+of Breitbart has had so much success spewing their lies all over Facebook.
+When responsible publications deem their reporting to be privileged
+information for only those who can pay, truth and integrity are readily
+subverted by those with every incentive to spread their lies far and wide by
+pumping out freely-accessible viral content.
+
+Yet here is where I must very respectfully disagree with Robinson on his
+suggested remedy. Robinson proposes that governments begin to draw on our
+taxes in order to fund publications—academic and media alike—allotting
+payments according to the frequency with which each piece of content is
+accessed. For academic publishing at least, such a model would be a
+no-brainer; why does the likes of Elsevier deserve a XX% <!-- TK --> profit
+margin for simply throwing academic research—often publicly funded—behind a
+private paywall on the internet? I wholeheartedly agree, too, that there is
+already more than enough room in what we pay in taxes to be able to fund such
+a programme (looking at you, military budgets).
+
+For the news media side of things, though, this payment model, of compensation
+for engagement, continues to feed into the exact same attention economy that
+we lament today—and again, engagement is a very different beast than
+understanding or action. The Outbrains and Taboolas of the world would come to
+be funded by our tax dollars, instead of just our eyeballs. This is a similar
+experiment to the one being carried out by [Scroll](https://scroll.com)—which
+while I do support, I do not believe will help us rebalance the
+information-action ratio.
+
+A tax-funded media also throws another spanner into the works: the state then
+gains more direct leverage over reportage and programming—which can be a very
+good thing (e.g. <!-- TK: good programming -->), or a very bad thing (e.g.
+<!-- TK: bad programming -->), [very much depending on who is in power at the
+time](https://www.theguardian.com/us-news/2020/aug/31/voice-of-america-journalists-trump-boss-michael-pack).
+
+With the death of ad-revenue, I think we should seize the moment to also get
+rid of its cousin (?), the attention economy. It is high time to say goodbye
+to those local (chain) outlets that still think that republishing wire stories
+constitutes sufficient "journalism" for the communities they should be
+serving, to those purveyors of click-bait cholesterol that have clogged up our
+informational arteries.
+
+What I'm truly excited about today, is open, reader-supported, participatory
+journalism. Journalism that finally re-aligns the financial incentives and
+power structures in favour of those that it purports today to serve. As some
+have noted (I have since lost the exact citation :/), "the best part about
+subscribing to the New York Times is being able to call them up and threaten
+to cancel." As the ad-supported becomes increasingly insupportable, outlets
+would do well to now recognise the will of the people, instead of the will of
+the corporations—who have unceremoniously abandoned them now that the tech
+giants have direct access to more scale than the news media could scrape
+together.
+
+The publication that has done best in this regard, in my opinion, is The
+Guardian. It has purposefully rejected the use of a paywall (though it remains
+to be seen how the [data-wall](<LINK TK>) skirmishes in the EU will work out),
+in favour of keeping its journalism free and open. Though it still serves up
+ads to fund part of this free access, <!-- TK: what  %  of guardian revenues
+come from subs? --> its funding is built on subscriptions and donations from
+its members and readers, and those who pay get ad-free access to its materials
+(unlike some other outlets who shall remain unnamed). Its pleas for funding
+are prominent, speaking incisively to the zeitgeist <!--TK: elaborate-->, and
+they are demonstrably rising to the moment, practising what they preach in
+their reporting by auditing their operations for its environmental impact and
+cutting off fossil fuel advertising in their pages. Few other outlets walk the
+talk the way the Guardian has. I think it is for this very reason that
+this forward-thinking publication has weathered the upheavals of the media
+industry remarkably well.
+<!-- TK: link to rankings perhaps? -->
+
+Above and beyond the re-alignment of financial incentives with
+reader-supported journalism, I am excited about the rise of participatory
+journalism, flipping the script on the already famous and powerful as the
+active news producers and the masses as mere passive consumers of its
+by-products. To truly opt out of the default, we need to reject the idea that
+only the already powerful are newsworthy, that only the already famous wield
+the power to effect change. We need to halt that magical thinking that help
+for us will conveniently fall out of the clear sky, that top-down initiatives
+are then only way to get things done in mass society. To do this, we need to
+recognise our neighbours—ordinary citizens—as the true heroes of our time, as
+the only legitimate co-constructors of our social reality.
+<!-- TK: e.g. grassroots activism in GA/AZ -->
+
+Closer to home for me, this means cheering on small but enormously
+consequential voices such as those of Kirsten Han on her We, The Citizens
+newsletter, or PJ Thum with New Naratif. Equally exciting are the citizens
+elsewhere in Asia, coming together to resist the international neoliberal
+order in Taiwan (New Bloom, sprouting from the seeds of the Sunflower movement)
+, or banding together in diaspora to resist the hegemonic repression of the
+Chinese state (Lausan, Hong Kong).
+
+currently supporting: the guardian, new naratif, kirsten han's milo peng fund
+also sounds exciting: new bloom, lausan ("can't be financially unsustainable
+if you didn't have money in the first place!"), but you should go look for
+whichever media collective resonates with your lived experience, who are
+carving out paths you'd like for the world to take (also a little worried
+about: substack newsletter monopoly) (idk about medium, never had much
+affinity with it, seems kinda dead anyway) the membership project, der
+correspondent (controversial)
+
+how is this different than social media? as discussed above, still an
+ad-funded thing, incentivises avocado toast posts (not that i'm against people
+making / eating delicious avocado toast, it's just that our attentional
+airspace is too polluted already with clickbait and infotainment as it is to
+devote any more energy to your conspicuous consumption). though jack dorsey
+has floated idea for subscription twitter?? (not sure how that would work)
+anyway, influencers are going the way of wirecutter. (though to be sure, i
+sometimes hear of capitalist satire insurrections on tiktok so maybe dem teens
+there would figure out how to make that werk)
+
+propaganda model: news as industry necessitates not just sustainable revenue
+stream, but also sustainable event stream => outsize influence of official pr
+we need to make our own news—and NOT just whatever the fuck avocado toast you
+ate for breakfast please. i'd like to hear about the questioning thoughts
+that flashed across your mind for a brief second before you tucked it away
+again securely in those dusty recesses of your mind reserved for sharp objects.
+
+reclaiming democracy from the technocracy. reclaiming our very own pulse. i'm
+excited about the long tail of people making their own news, who'd never use
+chartbeat, perhaps because it's too expensive, perhaps because they're too
+busy making their audiences the news makers and the traditional news makers
+their audiences to pay that much attention to attention for advertisers' sakes.
+
+let's go brew up some tea of our own.
 
 [^ad-rev]: As one point of reference: in 1966, the NYT was
     [N° 404 on the Fortune 500](https://archive.fortune.com/magazines/fortune/fortune500_archive/snapshots/1966/1380.html),
@@ -272,7 +548,7 @@ to mine human attention more naked than ever before.
     4 %}
 
 [^afy]: This one kept popping up on people's dashboards as `googleapis.com`.
-    Needless to say, that left many people scratching their heads--Google has
+    Needless to say, that left many people scratching their heads—Google has
     so many APIs, so which one is it? As it turns out, the full URL for the
     referrer was `http://www.googleapis.com/auth/chrome-content-suggestions`,
     and some light google-ing of the <span class="sc">url</span> revealed
@@ -299,16 +575,25 @@ to mine human attention more naked than ever before.
     their newsletter every time Facebook and Google inevitably switched places
     again in the referral rankings that latest month.
 
+[^climate-misnomer]: Given the far-ranging implications of the climate crisis,
+    I have begun to sense that the term is adequate only for describing the
+    tip of the iceberg of interlocked issues that we face today on a global
+    scale: environmental pollution and destruction, species extinction,
+    resource depletion, emergent pandemics, inter- and intra-national
+    immigration pressures, infrastructure collapse, ... the list goes on.
+
 [^covid-19]: This was, of course, back before we entered this apocalyptic movie
     timeline and busy people actually went places, instead of being stuck
     indoors for the indefinite future due to a deadly global pandemic.
 
 [^feed]: Just the word _feed_ itself—like the word _default_—gives me the
     heebie-jeebies. (Whoever said wordnesia was simply a curio?) It's a word
-    that puts me in mind of plugging ourselves into a socket on the wall, as if
-    we were machines running on centrally-supplied electricity; of hooking
-    ourselves up to an IV drip, as if institutionalised in perpetuity; of
-    animal feed; of a pig, in a cage, on antibiotics.{% cite fitter-happier %}
+    that puts me in mind of plugging ourselves into a socket on the wall, as
+    if we were machines sustained by centrally-supplied electricity; of
+    hooking ourselves up to an IV drip, as if institutionalised in perpetuity;
+    of animal feed; of prolefeed; of a pig, in a cage, on antibiotics.
+
+[^fitter-happier]: {% cite fitter-happier %}
 
 [^fb-vid]: #tbt the infamous pivot-to-video bubble, [which cost the jobs of
     innumerable journalists and eventually got Facebook
@@ -325,22 +610,15 @@ to mine human attention more naked than ever before.
 
 [^media-startups-nyc]: Well, there's a little bit more that happened with 
     VC-funded media startups in NYC (think Buzzfeed, Vox, Gawker, et al.)
-<!-- vc-funded silicon alley media startups
-    buzzfeed, mashable, gawker, vox, chartbeat, parsely
-    gone one by one, as was the old guard
-    gothamist died and bought by npr
-    gawker sued into oblivion
-    tronc / the onion tea??
-    gannett merged with tribune
-    buzzfeed peretti talked of merging with vox
-    much tea at chartbeat, founder ousted, went to start scroll
--->
 
 [^news]: **Adpocalypse** (_n._): the end of the ad-funded news business as we
     know it due to the recent ascendency of the Facebook/Google ads duopoly. A
     time of revelations; revelations about which outlets saw their readers as
     pairs of eyeballs to be trawled for their content farms, and which were
     actually producing journalism people cared about.
+
+[^objectivity]: I have a whole separate rant on "objectivity", "neutrality",
+    "defaults" (in another sense), but that will have to wait for another time.
 
 [^personalised]: It's pretty questionable, however, to what extent the content
     that shows up on such feeds is truly "personalised". I recently heard a
@@ -350,13 +628,14 @@ to mine human attention more naked than ever before.
     in physics!" In this connexion, the "personalised feed" comes across as
     little more than the algorithmic identification and perpetuation of
     stereotypes (that we formerly tended to associate with the mass media),
-    selectively shown and now with the middleman simply cut out. When I said
-    that she could probably turn the feed off if she didn't like the 
-    recommendations, she demurred, saying that she wouldn't be otherwise 
-    exposed to that variety of news sources without having to lift a finger.
+    selectively shown and now with the middleman simply cut out. I brought up
+    that she could probably turn the feed off if she didn't like the
+    recommendations, but she demurred, saying that she wouldn't be otherwise
+    exposed to such a variety of news sources without having to lift a finger.
 
-    Much more about algorithmic bias and how it can lead to the entrenchment
-    of our own societal biases in _Weapons of Math Destruction_{% cite wmd %}.
+    Much more about algorithmic bias and how it can lead to the further
+    entrenchment of our own societal biases in _Weapons of Math Destruction_{%
+    cite wmd %}.
 
 [^ref]: When we access the news online, we can land on a news website by (a)
     typing in the url to a publisher's homepage, aka **direct** traffic, (b)
@@ -364,8 +643,6 @@ to mine human attention more naked than ever before.
     on a news article that pops up on a social feed, (d) following a link from
     somewhere else on the internet, etc. etc. That place we first started from
     is called the _referral source_.
-
-[^smartphones-destroyed-generation]: {% cite smartphones-destroyed-generation %}
 
 [^television-delivers-people]: {% cite television-delivers-people %} AFAIK,
     this short video entitled _Television delivers people_ is the first time
