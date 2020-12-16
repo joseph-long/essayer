@@ -12,6 +12,10 @@ or is it the consumers who are roaches?
 
 ---
 
+clickbait, claptrap, ____ ____
+
+---
+
 vc-funded silicon alley media startups
 buzzfeed, mashable, gawker, vox, chartbeat, parsely
 gone one by one, as was the old guard
@@ -47,3 +51,22 @@ without thought—but ultimately toxic for life
 plastic being the stand-in for the real thing (fake plastic trees)
 
 that generated post-modern essay that was accepted for publication
+
+architecture: brutalism, disproportion
+
+unidimensional scaling: extremely simplified model for study
+left-right characterisation + polarisation
+inadequacy of model as perpetuated by mass media -> shock of trump, brexit
+e.g. https://www.paulkingsnorth.net/global
+sometimes, it's as if the people conducting the studies have forgotten that
+these are models of reality, not messy reality itself
+
+models of reality BECOMING part of social reality itself
+(BECAUSE all social reality is constructed)
+this is not something that happens to "natural sciences": an anvil falling
+from the tower of pisa isn't going to change course just because your theory
+about it is a certain way
+to read: ian hacking
+
+---
+
