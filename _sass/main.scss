@@ -61,6 +61,14 @@ a {
   margin-bottom: 2em;
 }
 
+.essai blockquote .block-cite {
+  text-align: right;
+}
+
+.essai blockquote .citation {
+  font-style: normal;
+}
+
 a#title {
   text-transform: lowercase;
   text-decoration: none;
@@ -139,10 +147,11 @@ figcaption {
 }
 
 /* font styles */
-.sc {
+
+sc {
   text-transform: uppercase;
 }
-.essai .sc {
+.essai sc {
   text-transform: initial;
   font-family: 'Cormorant SC';
 }
@@ -166,6 +175,7 @@ h1 {
 h2 {
   font-family: "Cormorant SC";
   font-size: 1em;
+  margin-top: 2em;
 }
 
 h3 {
@@ -198,6 +208,7 @@ div.bibliography > div {
   position: relative;
   font-size: 0.75em;
   top: -0.5em;
+  white-space: nowrap;
 }
 
 ol {
