@@ -1,6 +1,7 @@
 ---
 layout:   essai
-title:    "Defaults"
+title:    Defaults
+blurb:    Ripping out the IV drip of the news feed
 ---
 
 You know that feeling you get about a familiar word after saying it a couple of
@@ -416,11 +417,11 @@ suggested remedy. Robinson proposes that governments begin to draw on our
 taxes in order to fund publications—academic and media alike—allotting
 payments according to the frequency with which each piece of content is
 accessed. For academic publishing at least, such a model would be a
-no-brainer; why does the likes of Elsevier deserve a XX% <!-- TK --> profit
-margin for simply throwing academic research—often publicly funded—behind a
-private paywall on the internet? I wholeheartedly agree, too, that there is
-already more than enough room in what we pay in taxes to be able to fund such
-a programme (looking at you, military budgets).
+no-brainer; why do the likes of Elsevier deserve 30% profit
+margins[^elsevier] for simply throwing academic research—often publicly
+funded—behind a private paywall on the internet? I wholeheartedly agree, too,
+that there is already more than enough room in what we pay in taxes to be able
+to fund such a programme (looking at you, military budgets).
 
 For the news media side of things, though, this payment model, of compensation
 for engagement, continues to feed into the exact same attention economy that
@@ -431,46 +432,60 @@ experiment to the one being carried out by [Scroll]—which
 while I do support, I do not believe will help us rebalance the
 information-action ratio.
 
-A tax-funded media also throws another spanner into the works: the state then
-gains more direct leverage over reportage and programming—which can be a very
-good thing (e.g. <!-- TK: good programming -->), or a very bad thing (e.g.
-<!-- TK: bad programming -->), [very much depending on who is in power at the
-time][voa-trump].
+A tax-funded media also throws another spanner into the works: the state would
+then gain more direct leverage over reportage and programming. Even though the
+funds come nominally from the taxpayer, they are still funnelled through the
+state apparatus, which ultimately has discretion over the budget and
+distribution of such taxes. Depending on the prevailing political culture,
+this can mean anything from [complete state control over the media][sg-media],
+[the promulgation of state propaganda and censorship][voa-trump],
+[neo-colonial whitewashing][moral-maze], to [fearless public-interest
+reporting that are nevertheless subject to the other arms of state
+control][abc]; sometimes all occurring within the same broadcaster. The point
+here is not that public broadcasters should be abolished—where would we be
+without BBC's _Doctor Who_, or CBC's _Ideas_, or, heck, Channel 4's _Black
+Mirror_ before Netflix snatched it up? It's simply that the state ought not
+be allowed absolute monopoly over a nation's media ecosystem, and its public
+discourse by extension.
 
-With the death of ad-revenue, I think we should seize the moment to also get
-rid of its cousin (?), the attention economy. It is high time to say goodbye
-to those local (chain) outlets that still think that republishing wire stories
-constitutes sufficient "journalism" for the communities they should be
-serving, to those purveyors of click-bait cholesterol that have clogged up our
-informational arteries.
+Instead, with the death of ad-revenue, I think we should seize the moment to
+also get rid of its offspring and its enabler, the attention economy. It is
+high time to say goodbye to those local (chain) outlets that still think that
+republishing wire stories constitutes sufficient "journalism" for the
+communities they should be serving, to those purveyors of click-bait
+cholesterol that have clogged up our informational arteries.
 
 What I'm truly excited about today, is open, reader-supported, participatory
 journalism. Journalism that finally re-aligns the financial incentives and
 power structures in favour of those that it purports today to serve. As some
-have noted (I have since lost the exact citation :/), "the best part about
-subscribing to the New York Times is being able to call them up and threaten
-to cancel." As the ad-supported becomes increasingly insupportable, outlets
-would do well to now recognise the will of the people, instead of the will of
-the corporations—who have unceremoniously abandoned them now that the tech
-giants have direct access to more scale than the news media could scrape
-together.
+have noted, the best part about subscribing to the New York Times is being
+able to call up and threaten to cancel.{% cite cite-needed %} As the
+ad-supported model becomes increasingly insupportable, outlets would do well
+to now recognise the will of the people, instead of the will of the
+corporations—who have unceremoniously abandoned them now that the tech giants
+have direct access to more scale than the news media could scrape together.
 
 The publication that has done best in this regard, in my opinion, is The
 Guardian. It has purposefully rejected the use of a paywall (though it remains
 to be seen how the [data-wall] skirmishes in the <sc>eu</sc>/<sc>ca</sc> will
 work out), in favour of keeping its journalism free and open. Though it still
-serves up ads to fund part of this free access, <!-- TK: what  %  of guardian revenues
-come from subs? --> its funding is built on subscriptions and donations from
-its members and readers, and those who pay get ad-free access to its materials
-(unlike some other outlets who shall remain unnamed). Its pleas for funding
-are prominent, speaking incisively to the zeitgeist <!--TK: elaborate-->, and
-they are demonstrably rising to the moment, practising what they preach in
+serves up ads to fund part of this free access, 28% of its funding now comes
+from subscriptions and donations from its members and readers.[^gmg-2018]
+Those who pay get ad-free access to its materials (unlike some other outlets
+who shall remain unnamed). Its reportage speaks incisively to the zeitgeist,
+investigating the intersecting environmental, social, and political crisis of
+our day. Its pleas for funding are prominent and clearly demonstrate their
+sustained reporting on the issues that matter—as well as how important their
+readers' support is to them—all at the ends of articles, where a more
+ad-driven publication would have been tempted to add in an infinite scroll of
+other articles to milk your attention for all its worth. Reporting aside, they
+are also demonstrably rising to the moment, practising what they preach in
 their reporting by auditing their operations for its environmental impact and
 cutting off fossil fuel advertising in their pages. Few other outlets walk the
-talk the way the Guardian has. I think it is for this very reason that
-this forward-thinking publication has weathered the upheavals of the media
-industry remarkably well.
-<!-- TK: link to rankings perhaps? -->
+talk the way the Guardian has. I think it is for this very reason that this
+forward-thinking publication has weathered the upheavals of the media industry
+remarkably well, reporting that it has recently broken even[^gmg-2018] even as
+its competitors are shuttering or merging around it.
 
 Above and beyond the re-alignment of financial incentives with
 reader-supported journalism, I am excited about the rise of participatory
@@ -483,7 +498,6 @@ for us will conveniently fall out of the clear sky, that top-down initiatives
 are then only way to get things done in mass society. To do this, we need to
 recognise our neighbours—ordinary citizens—as the true heroes of our time, as
 the only legitimate co-constructors of our social reality.
-<!-- TK: e.g. grassroots activism in GA/AZ -->
 
 Closer to home for me, this means cheering on small but enormously
 consequential voices such as those of Kirsten Han on her *We, The Citizens*
@@ -602,6 +616,9 @@ makers their audiences to pay attention to superficial attention.
     timeline and busy people actually went places, instead of being stuck
     indoors for the indefinite future due to a deadly global pandemic.
 
+[^elsevier]: In 2019, RELX, Elsevier's parent company, reported a profit margin
+    of 31.6% {% cite elsevier-2019 -l 2 %}
+
 [^feed]: Just the word _feed_ itself—like the word _default_—gives me the
     heebie-jeebies. (Whoever said wordnesia was simply a curio?) It's a word
     that puts me in mind of plugging ourselves into a socket on the wall, as
@@ -614,6 +631,9 @@ makers their audiences to pay attention to superficial attention.
 
 [^fb-vid]: #tbt the infamous pivot-to-video bubble, [which cost the jobs of
     innumerable journalists and eventually got Facebook sued][pivot-to-video].
+
+[^gmg-2018]: The latest figures I could find on this subject were from
+    [2018-2019](https://www.theguardian.com/media/2019/aug/07/guardian-broke-even-last-year-parent-company-confirms).
 
 [^goog]:  Was it a product strategy, to consolidate the recommendation
     experience across Google product surfaces? Was it an advertising ploy, to
@@ -630,8 +650,8 @@ makers their audiences to pay attention to superficial attention.
     free platforms are mushrooming up all the time to upstage the older
     networks.
 
-[^media-startups-nyc]: Well, there's a little bit more that happened with 
-    <sc>vc</sc>-funded media startups in <sc>nyc</sc> (think Buzzfeed, Vox, Gawker, et al.)
+[^media-startups-nyc]: Well, there's a little bit more that happened
+    with <sc>vc</sc>-funded media startups in <sc>nyc</sc> (think Buzzfeed, Vox, Gawker, et al.)
 
 [^news]: **Adpocalypse** (_n._): the end of the ad-funded news business as we
     know it due to the recent ascendency of the Facebook/Google ads duopoly. A
@@ -677,6 +697,7 @@ makers their audiences to pay attention to superficial attention.
 
 <!-- URLS -->
 
+[abc]: https://www.abc.net.au/news/2019-06-05/abc-raided-by-australian-federal-police-afghan-files-stories/11181162
 [afy]: https://www.niemanlab.org/2018/03/this-is-the-next-major-traffic-driver-for-publishers-chromes-mobile-article-recommendations-up-2100-percent-in-one-year/
 [attenborough-tiptoe]: https://www.theguardian.com/environment/2020/sep/18/dont-look-away-now-are-viewers-finally-ready-for-the-truth-about-nature-aoe
 [climate-presentation]: https://grist.org/article/is-climate-change-a-ratings-killer-or-is-something-wrong-with-for-profit-media/
@@ -689,6 +710,7 @@ makers their audiences to pay attention to superficial attention.
 [google-app-feed]: https://www.blog.google/products/search/feed-your-need-know/
 [google-discover]: https://blog.google/products/search/introducing-google-discover/
 [info-diet]: https://w.wiki/iAZ
+[moral-maze]: https://twitter.com/NadineElEnany/status/1286024294909321219
 [npr-read]: https://n.pr/2J4ZKjx
 [nyt-fortune-500]: https://archive.fortune.com/magazines/fortune/fortune500_archive/snapshots/1966/1380.html
 [nyt-truth]: https://www.nytco.com/press/nytimes-releases-new-ads-from-the-truth-is-hard-campaign-directed-by-darren-aronofsky/
@@ -698,6 +720,7 @@ makers their audiences to pay attention to superficial attention.
 [pocket]: https://blog.getpocket.com/2017/11/introducing-pocket-recommendations-in-firefox-quantum/
 [recsys]: https://nyti.ms/3kCGyY9
 [Scroll]: https://scroll.com
+[sg-media]: https://en.wikipedia.org/wiki/Mass_media_in_Singapore
 [smartphone-generation]: https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/
 [social-emotion]: https://doi.org/10.1073/pnas.1320040111
 [soylent]: https://w.wiki/iAg
