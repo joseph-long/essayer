@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "contact.css",
+	"sources": [
+		"contact.scss"
+	],
+	"sourcesContent": [
+		"input[type=text], input[type=email], textarea {\n  border: none;\n  font-family: 'Space Mono';\n}\n\ninput[type=submit] {\n  font-family: 'Space Mono';\n  -webkit-appearance: button;\n  border: 1px;\n  border-style: solid;\n  border-radius: 0px;\n  background: none;\n}\n\ninput.expand-right {\n  background: none;\n  display: inline;\n}\n\ntextarea {\n  background: none;\n  display: block;\n  overflow: hidden;\n  resize: none;\n  width: 100%;\n  padding: 0px;\n}\n\ntextarea:focus, input:focus{\n    outline: none;\n}\n\ninput::placeholder, textarea::placeholder {\n  color: var(--steel);\n}\n\n.dark-mode input::placeholder, .dark-mode textarea::placeholder {\n  color: var(--olive);\n}\n\ndiv[spacer] { height: 1em; }\n\niframe { display: none; }\n\n.dark-submit {\n  color: var(--parchment);\n  border-color: var(--parchment);\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAA,AAAA,IAAC,CAAD,IAAC,AAAA,GAAY,KAAK,CAAA,AAAA,IAAC,CAAD,KAAC,AAAA,GAAa,QAAQ,CAAC,EAC5C,MAAM,EAAE,IAAI,EACZ,WAAW,EAAE,YAAY,GAC1B;;AAED,AAAA,KAAK,CAAA,AAAA,IAAC,CAAD,MAAC,AAAA,EAAa,EACjB,WAAW,EAAE,YAAY,EACzB,kBAAkB,EAAE,MAAM,EAC1B,MAAM,EAAE,GAAG,EACX,YAAY,EAAE,KAAK,EACnB,aAAa,EAAE,GAAG,EAClB,UAAU,EAAE,IAAI,GACjB;;AAED,AAAA,KAAK,AAAA,aAAa,CAAC,EACjB,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,MAAM,GAChB;;AAED,AAAA,QAAQ,CAAC,EACP,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,KAAK,EACd,QAAQ,EAAE,MAAM,EAChB,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,GAAG,GACb;;AAED,AAAA,QAAQ,CAAC,KAAK,EAAE,KAAK,CAAC,KAAK,CAAA,EACvB,OAAO,EAAE,IAAI,GAChB;;AAED,AAAA,KAAK,EAAE,WAAW,EAAE,QAAQ,EAAE,WAAW,CAAC,EACxC,KAAK,EAAE,YAAY,GACpB;;AAED,AAAA,UAAU,CAAC,KAAK,EAAE,WAAW,EAAE,UAAU,CAAC,QAAQ,EAAE,WAAW,CAAC,EAC9D,KAAK,EAAE,YAAY,GACpB;;AAED,AAAA,GAAG,CAAA,AAAA,MAAC,AAAA,EAAQ,EAAE,MAAM,EAAE,GAAG,GAAI;;AAE7B,AAAA,MAAM,CAAC,EAAE,OAAO,EAAE,IAAI,GAAI;;AAE1B,AAAA,YAAY,CAAC,EACX,KAAK,EAAE,gBAAgB,EACvB,YAAY,EAAE,gBAAgB,GAC/B"
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/essayer/assets/css/styles.css">
+    <title>Bullshit Jobs: A Theory</title>
+  </head>
+  <body>
+    <div class="main" style="margin-bottom: 10em;">
+      <div style="height: 3em;"></div>
+      <nav>
+  <a id="home" href="/essayer/">
+    ESSAYER
+  </a>
+  <span style="float: right;">
+    
+      <a class="nav-item" href="/essayer/about.html">
+         About 
+      </a>
+    
+      <a class="nav-item" href="/essayer/contact.html">
+         Contact 
+      </a>
+    
+    <a onclick="toggleDarkMode()" href="#">☯︎</a>
+  </span>
+</nav>
+
+      <div style="height: 5em;"></div>
+      <div class="essai">
+  <h1><a id="title">Bullshit Jobs: A Theory</a></h1>
+  <div class="main-text"><h3><span id="author">Graeber, David</span></h3>
+
+<div>
+
+<h2 id="on-physicists">On physicists</h2>
+
+<blockquote id="physicists">
+  <p>These days, it’s hard to recall the almost mystical aura with which the
+financial sector had surrounded itself in the years leading up to 2008.
+Financiers had managed to convince the public—and not just the public, but
+social theorists, too (I well remember this)—that with instruments such as
+collateralized debt obligations and high-speed trading algorithms so complex
+they could be understood only by astrophysicists, they had, like modern
+alchemists, learned ways to whisk value out of nothing by means that others
+dared not even try to understand. Then, of course, there came the crash, and
+it turned out that most of the instruments were scams. Many weren’t even
+particularly sophisticated scams. <a class="citation" href="#bullshit-jobs">[Graeber, 2019, chap. 5]</a></p>
+</blockquote>
+
+<p>Of course, that still hasn’t stopped the physicists, thinking they’ve solved
+the secrets of universe, from <a href="https://xkcd.com/793/">flouncing into other fields</a>,
+<a href="https://twitter.com/daniela_witten/status/1301632149951410177">pronouncing those fields ‘trivial’</a>, and <a href="https://xkcd.com/2355/">imposing their ‘expert’
+opinion on them</a> by <a href="https://twitter.com/tobiasgalla/status/1243485690039582721?s=20">slapping an Ising model on the whole
+shebang</a>.<sup id="fnref:gut" role="doc-noteref"><a href="#fn:gut" class="footnote">1</a></sup></p>
+
+<h2 id="the-bored-at-work-network">The Bored at Work Network</h2>
+
+<blockquote>
+  <p>The most common complaint among those trapped in offices doing nothing all
+day is just how difficult it is to repurpose the time for anything
+worthwhile. One might imagine that leaving millions of well-educated young
+men and women without any real work responsibilities but with access to the
+internet—which is, potentially, at least, a repository of almost all human
+knowledge and cultural achievement—might spark some sort of Renaissance.
+Nothing remotely along these lines has taken place. Instead, the situation
+has sparked an efflorescence of social media (Facebook, YouTube, Instagram,
+Twitter): basically, of forms of electronic media that lend themselves to
+being produced and consumed while pretending to do something else. I am
+convinced this is the primary reason for the rise of social media,
+especially when one considers it in the light not just of the rise of
+bullshit jobs but also of the increasing bullshitization of real jobs. As
+we’ve seen, the specific conditions vary considerably from one bullshit job
+to another. Some workers are supervised relentlessly; others are expected to
+do some token task but are otherwise left more or less alone. Most are
+somewhere in between. Yet even in the best of cases, the need to be on call,
+to spend at least a certain amount of energy looking over one’s shoulder,
+maintaining a false front, never looking too obviously engrossed, the
+inability to fully collaborate with others—all this lends itself much more
+to a culture of computer games, YouTube rants, memes, and Twitter
+controversies than to, say, the rock ’n’ roll bands, drug poetry, and
+experimental theater created under the midcentury welfare state. What we are
+witnessing is the rise of those forms of popular culture that office workers
+can produce and consume during the scattered, furtive shards of time they
+have at their disposal in workplaces where even when there’s nothing for
+them to do, they still can’t admit it openly.</p>
+</blockquote>
+
+<p>This exact observation was dubbed the <a href="https://web.archive.org/web/20080223064617/http://www.stayfreemagazine.org/archives/25/jonah-peretti-interview.html">“Bored at Work Network” (BWN)</a> by
+none other than the king of listicles himself, BuzzFeed founder Jonah Peretti.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:gut" role="doc-endnote">
+      <p>How’s that grand unified theory going, by the way? :) <a href="#fnref:gut" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+
+<div style="margin-top: 3em;">
+<p style="text-align: center; font-size: 0.64em;"><span id="bullshit-jobs">Graeber, D. (2019). <i>Bullshit Jobs: A Theory</i>. London: Penguin Books.</span></p>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+<script type="text/javascript">
+  var url = window.location.href.split("/");
+  var year = url[url.length - 4];
+  var month = url[url.length - 3];
+  var date = url[url.length - 2];
+  var filename = url[url.length - 1].split(".")[0];
+  var blameMaster = (
+    "https://github.com/constellationcolon/essayer/blame/master/_posts/"
+    + year + "-" + month + "-" + date + "-" + filename + ".md"
+  );
+  var title = document.getElementById("title");
+  title.href = blameMaster;
+</script>
+    </div>
+    <script type="text/javascript">
+      const text_tags = ["a", "input", "textarea"];
+      function darkMode(state) {
+        document.body.classList.toggle("dark-mode", state);
+        text_tags.forEach(
+          tag => Array.from(document.getElementsByTagName(tag))
+                      .map(e => e.classList.toggle("dark-mode-text", state)));
+        var submit = document.querySelector("input[type=submit]");
+        submit ? submit.classList.toggle("dark-submit", state) : null;
+        var author = document.getElementById("author");
+        author ? author.classList.toggle("dark-author", state) : null;
+        try { darkCharts(state); } catch { }
+        localStorage.dark = state.toString();
+      }
+      function toggleDarkMode() {
+        localStorage.dark == "true" ? darkMode(false) : darkMode(true);
+      }
+      localStorage.dark == "true" ? darkMode(true) : darkMode(false);
+    </script>
+  </body>
+</html>
+

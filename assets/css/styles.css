@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap");
+@font-face { font-family: "Byom Icons"; src: url("/essayer/assets/fonts/byom_icons.ttf"); }
+
+@font-face { font-family: "Linux Libertine"; src: url("/essayer/assets/fonts/LinLibertine_R.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "STFangSong"; src: url("/essayer/assets/fonts/chinese.stfangso.ttf"); }
+
+:root { --ice: rgb(241, 247, 249); --fog: rgb(219, 220, 228); --steel: rgb(161, 163, 173); --stormborn: rgb(76, 78, 101); --chocolate: rgb(11, 5, 1); --cedar: rgb(32, 25, 11); --olive: rgb(77, 66, 44); --parchment: rgb(208, 168, 122); }
+
+body { font-family: "Space Mono", monospace; font-size: 11px; text-underline-offset: 0.2em; background-color: var(--ice); color: var(--stormborn); }
+
+code { font-family: "Space Mono", monospace; font-size: 0.8em; }
+
+nav a { text-decoration: none; text-transform: lowercase; }
+
+#nav-item { margin-left: 1em; }
+
+.main { max-width: 80ch; margin: auto; }
+
+a { color: var(--stormborn); }
+
+.dark-mode { background-color: var(--chocolate); color: var(--parchment); }
+
+.dark-mode-text { color: var(--parchment); }
+
+.essai { font-family: 'Cormorant Garamond', serif, 'STFangSong'; font-size: 1.56em; }
+
+.essai blockquote { font-size: 0.9em; margin-top: 2em; margin-bottom: 2em; }
+
+.essai blockquote .block-cite { text-align: right; }
+
+.essai blockquote .citation { font-style: normal; }
+
+a#title { text-transform: lowercase; text-decoration: none; font-family: 'Cormorant Unicase'; }
+
+.footnotes { margin-top: 5em; font-size: 0.8em; line-height: initial; }
+
+sup, sub { vertical-align: baseline; position: relative; font-size: 0.75em; }
+
+sup { top: -0.5em; }
+
+sub { top: 0.5em; }
+
+#home { text-align: left; font-weight: bold; letter-spacing: 1ch; text-transform: uppercase; }
+
+.main-text p { text-indent: 1em; margin-top: 0.5em; margin-bottom: 0.5em; line-height: 1.6em; }
+
+.main-text p:first-child { text-indent: initial; }
+
+.main-text > p:first-child, .main-text > div > p:first-child { margin-top: 3em; }
+
+.section-break { text-align: center; font-style: italic; margin: 1em 0; }
+
+.image > img { width: 100%; }
+
+.image > figcaption { font-family: 'Cormorant Upright'; font-size: 0.8em; }
+
+figure { margin-top: 2em; margin-bottom: 2em; margin-left: 0; margin-right: 0; }
+
+figcaption { font-size: 0.5em; font-family: "Space Mono"; text-align: right; }
+
+/* font styles */
+sc { text-transform: uppercase; }
+
+.essai sc { text-transform: initial; font-family: 'Cormorant SC'; }
+
+.uc { font-family: 'Cormorant Unicase'; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Cormorant Unicase"; text-transform: lowercase; font-weight: normal; text-align: center; }
+
+h1 { margin-bottom: 1em; font-size: 1.2em; }
+
+h2 { font-family: "Cormorant SC"; font-size: 1em; margin-top: 2em; }
+
+h3 { font-family: "Cormorant SC"; font-size: 0.8em; }
+
+h4 { font-size: 0.6em; }
+
+h5 { font-size: 0.4em; }
+
+h6 { font-size: 0.2em; }
+
+h2.bibliography { margin-top: 2em; }
+
+div.bibliography > div { margin-top: 0.5em; margin-bottom: 0.5em; text-indent: -1em; padding-left: 1em; }
+
+.essai-bibliography { font-size: 0.8em; margin-top: 5em; }
+
+.citation { vertical-align: baseline; position: relative; font-size: 0.75em; top: -0.5em; white-space: nowrap; }
+
+ol { padding-inline-start: 0em; }
+
+li { margin: 0.5em 0; }
+
+.sup-mat { font-family: "Byom Icons"; font-size: 0.8em; }
+
+.wiki { font-family: "Linux Libertine"; letter-spacing: -0.8ch; }
+
+.cw > .cw-text { display: none; font-size: 0.8em; text-decoration: none; color: var(--steel); }
+
+.dark-mode .cw > .cw-text { color: var(--olive); }
+
+.cw:hover > .cw-text { display: inline; }
+
+#author { border-top: 1px solid var(--stormborn); padding: 0.2em; }
+
+#author.dark-author { border-top: 1px solid var(--parchment); }
+
+/*# sourceMappingURL=styles.css.map */

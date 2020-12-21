@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"about.scss"
+	],
+	"sourcesContent": [
+		"p { margin: 0; }\n\n.platform { display: inline-block; width: 10ch; }"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,CAAC,CAAC,EAAE,MAAM,EAAE,CAAC,GAAI;;AAEjB,AAAA,SAAS,CAAC,EAAE,OAAO,EAAE,YAAY,EAAE,KAAK,EAAE,IAAI,GAAI"
+}
